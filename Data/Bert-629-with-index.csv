@@ -1,0 +1,1002 @@
+paragraph,Index
+BERT <REF> is one of a series of pre-trained neural models that can be fine tuned to provide state-of-theart results in NLP  including on the SQuAD  and NQ  tasks that align with our MRC based QA.,0
+"Question <REF> Candidate Paragraph BERT : BERT for QA  Base (a 12 layer, 768 hidden dimension, 12 attention head, 110M parameter transformer network) or a Large (a 24 layer, 1024 hidden dimension, 16 attention head, 340M parameter transformer network) model.",1
+DecAtt + Doc Reader <REF> 31.4 BERT  50.2 BERT w/ SQuAD 1.1   on these data sets).,2
+"Specifically, we use SQuAD 1.1 <REF>.",3
+"Specifically, we use SQuAD 1.1 <REF>.",4
+"In recent years, deep pre-training approaches <REF> have brought great break-through in NLP tasks.",5
+"In recent years, transfer learning has achieved amazing performance on many NLP tasks <REF>.",6
+MKDM is implemented from BERT <REF>.,7
+"In recent work, <REF> show that pretrained modules together with handcrafted subpolicies help in solving text-based games, while Yin and May (2019) use BERT  to inject 'weak common sense' into agents for text-based games.",8
+"Inspired by the superiority of Transformer <REF> on many text generation tasks , we propose a Transformer-based autoencoder with low reconstruction bias to learn the latent representation of source text.",9
+The autoregressive loss belongs to a large family of selfsupervised loss functions <REF>.,10
+<REF> study the self-attention of a Transformer encoder for NMT and observe that some heads mark syntactic dependency relations.,11
+<REF> study the self-attention of a Transformer encoder for NMT and observe that some heads mark syntactic dependency relations.,12
+"Recently, several pre-trained transformers such as GPT <REF> and BERT  have been released.",13
+"Model Architectures of BERT, GPT and ELMo Quoted from <REF> BERT As shown in , both ELMo and GPT models only use unidirectional language models to learn the representation of tokens.",14
+"Model Architectures of BERT, GPT and ELMo Quoted from <REF> BERT As shown in , both ELMo and GPT models only use unidirectional language models to learn the representation of tokens.",15
+"Specifically, we focus on a new reading comprehension dataset called DROP <REF>, which requires Discrete Reasoning Over the content of Paragraphs to obtain the final answer.",16
+MTMSN utilizes a series of pre-trained Transformer blocks <REF> to obtain a deep bidirectional context representation.,17
+<REF> gives an overview of our model that aims to combine neural reading comprehension with numerical reasoning.,18
+"To obtain a universal representation for both the question and the passage, we utilize BERT <REF>, a pre-trained deep bidirectional Transformer model that achieves state-of-the-art performance across various tasks, as the encoder.",19
+"Specifically, we first tokenize the question and  <REF>: An illustration of MTMSN architecture.",20
+"Motivated by the desire to address the limitations of supervised parsing and by the success of large-scale unsupervised modeling such as ELMo and BERT <REF> Equal contribution, randomly ordered.",21
+"The model is then trained with the objective that the outside representations of the leaf cells should reconstruct the corresponding leaf input word, analogous to masked language model <REF> pretraining, except by using dynamic programming we predict every word from a completely unmasked context.",22
+We use EternalFeather project to train a CBow word embedding provided by <REF> with 300 dimensions on the processed wiki text.,23
+"Pre-trained sentence encoders such as ELMo <REF> and BERT  have rapidly improved the state of the art on many NLP tasks, and seem poised to displace both static word embeddings  and discrete pipelines  as the basis for natural language processing systems.",24
+"We build on this latter line of work, focusing on the BERT model <REF>, and use a suite of probing tasks  derived from the traditional NLP pipeline to quantify where specific types of linguistic information are encoded.",25
+"The BERT model <REF> has shown state-of-the-art performance on many tasks, and its deep Transformer architecture  is typical of many recent models (e.g.",26
+"For our models, we used a TFIDF <REF>, a 2-layer LSTM , and the state-of-the-art BERT model .",27
+"This approach can also be applied in order to train a model dedicated to a new slot filling task from an already pre-trained model (here ASR • N ER), in the same spirit as the BERT model for textual language understanding <REF>.",28
+"Similarly, <REF> present pretrained cross-lingual models (XLM), based on modern pretraining mechanisms; specifically, a variant of the masked LM pretraining scheme used in BERT .",29
+"Work on evaluating sentence representations was encouraged by the release of the SentEval toolkit <REF>, which provided an easy-to-use framework that sentence representations could be 'plugged' into, for rapid downstream evaluation on numerous tasks: these include several classification tasks, textual entailment and similarity tasks, a paraphrase detection task, and caption/image retrieval tasks.",30
+"In NLP, pre-trained models, such as ELMo <REF>, GPT , BERT  and XLNet , have achieved state-of-the-art performances in many NLP tasks as well, such as sentiment analysis , natural language inference , and machine reading comprehension .",31
+"Latest pre-trained NLP models are based on multi-layer Transformer, such as GPT <REF>, BERT  and XLNet , and trained using large-scale corpus by language modeling.",32
+BERT <REF>) is a pre-trained model based on multi-layer Transformer .,33
+We omit the details and encourage to refer the original paper <REF>.,34
+One example of the data set is described in <REF>.,35
+One example of the data set is described in <REF>.,36
+"Recently, <REF> propose a self-attention mechanism that enables to capture long-term dependency and to compute in parallel.",37
+"Pre-trained langauge models, such as ELMo <REF>, OpenAI GPT , and BERT , have been broadly applied in a variety of NLP tasks (e.g., sentiment analysis, machine reading comprehension, and textual entailment) and have achieved a great success.",38
+"For more details, the dialogue-level tokens are input to the post training language model, which takes into account not only their dialogue emotion, thus modeling the dependency among both, labels and utterances, an important consideration of natural dialogue <REF>.",39
+"To reproduce the datapoor setting that our annotators must learn in, we also train the BERT model <REF> in limited-data regimes, and conclude that low-resource sentence classification remains a challenge for modern neural network approaches to text understanding.",40
+This past year has seen tremendous progress in building general purpose models that can learn good language representations across a range of tasks and domains <REF>.,41
+This past year has seen tremendous progress in building general purpose models that can learn good language representations across a range of tasks and domains <REF>.,42
+"Pretrained Language Models (LM) like ULMfit <REF>, ELMo , OpenAI GPT  and BERT , proposed different neural language model architectures and made their pre-trained weights available to ease the application of transfer learning to downstream tasks, where they have pushed the state-of-the-art for several benchmarks including question answering on SQuAD, NLI, cross-lingual NLI and named identity recognition (NER).",43
+"Among different approaches to contextualized word embeddings (mentioned in section 2), we choose ELMo <REF> as contextualized word embedding approach.",44
+"In recent years, pre-trained word and sentence representations achieved very competitive performance in many NLP tasks, e.g., fine-tuned word embeddings using distant training (Cliche, 2017) and tweet sentence representations DeepMoji <REF> on sentiment analysis, and contextualized word representations BERT  on 11 NLP tasks.",45
+There is a research trend on word and sentence embeddings after the invention of Word2Vec <REF>.,46
+We adopt BERT (Bidirectional Encoder Representation from Transformers <REF>) as our base model since its variants achieve dominant performance on MRC  and CRC  tasks.,47
+"In this section, we briefly review BERT (Bidirectional Encoder Representation from Transformers <REF>), which is one of the key innovations of unsupervised contextualized representation learning .",48
+"In this section, we briefly review BERT (Bidirectional Encoder Representation from Transformers <REF>), which is one of the key innovations of unsupervised contextualized representation learning .",49
+"As such building, a representation from medical text using handengineered features is a challenge <REF>.",50
+"In recent years, there has been an increase in the number of annotated RC datasets such as SQuAD <REF>, NewsQA , TriviaQA  and RACE 8 Early testing of our model was actually done on SQuAD.",51
+The paucity of data for both emotion recognition and empathetic response generation <REF>.,52
+"Detecting sentiment and emotion <REF>    proposed a new benchmark for empathetic dialogue generation, which is grounded in a situation prompted by specific emotion labels.",53
+Using pre-trained language models for contextual word representations has been shown to improve many Natural Language Processing (NLP) tasks <REF>.,54
+Using pre-trained language models for contextual word representations has been shown to improve many Natural Language Processing (NLP) tasks <REF>.,55
+We use GloVe word representations <REF> and compare the performance improvement that we obtain with pre-trained BERT representations .,56
+Gains on additional tasks were reported by <REF> and later by other researchers.,57
+Gains on additional tasks were reported by <REF> and later by other researchers.,58
+a large pre-trained language model such as BERT <REF>) to pick the final response.,59
+"Inspired by <REF> which capture the global dependencies between input and output by aggregating information from the elements of the input, we build a relation attention module which consists of the transformer unit proposed in .",60
+"Inspired by <REF> which capture the global dependencies between input and output by aggregating information from the elements of the input, we build a relation attention module which consists of the transformer unit proposed in .",61
+"F unc is a non-linear function, which can be referred to <REF> for detail.",62
+Fine-Tuning BERT This is another extractive RC model that benefits from the recent advance in pretrained general language encoders <REF>.,63
+Fine-Tuning BERT This is another extractive RC model that benefits from the recent advance in pretrained general language encoders <REF>.,64
+"The second type is commonsense, which is consistent with the good performance of BERT <REF> on SWAG .",65
+Our position embedding is inspired by word position embedding in neural language processing (NLP) which distinguishes different semantics of one word in different positions of a sentence <REF>.,66
+"Here, we follow the fusing approach in BERT <REF>.",67
+"Questions were written by crowdworkers, who try to bridge between two concepts extracted from CONCEPTNET <REF>      summarizes the size and number of annotators who worked on each dataset.",68
+"To this end, we follow the standard way of feeding input to BERT <REF> and concatenate the annotator ID as an additional feature to every example in every dataset.",69
+"Initially, relatively simple vector space models <REF> were used and can represent some important word and document relations .",70
+"One of the latest improvements in semi-supervised pre-training is BERT 3 <REF>, which can be downloaded in pre-trained form.",71
+"For example, vector space embeddings can be learned in the form of latent representations of autoencoders as illustrated in <REF>, and in this context methods and concepts that are successfully used for NLP can be reused and further developed.",72
+Pre-trained LM To take advantage of the recent success in pre-trained language models <REF> we also make use of ELMo contextualized embeddings instead of the embedding matrix and the character LSTM concatentation.,73
+"In modern search systems, the above target could be achieved by deploying a Web question answering (QA) component <REF> upon the retrieval module: Given a search query and a set of topranked passages, the Web QA component determines whether the candidate set contains any direct answer and extracts the answer as the output if it exists.",74
+"In this work, we introduce risk-related metrics following the idea in <REF>, including coverage, risk and AURC, for risk-aware Web QA evaluation.",75
+Here we take two representative deep MRC models BIDAF <REF> and BERT  as the basic MRC model in our framework.,76
+ENS <REF> trains multiple models from different initialization to estimate the predictive uncertainty of deep models on the image classification task.,77
+which is the same as the empirical selective risk defined in Equation <REF>.,78
+Extreme summarization revisits interesting problems in abstractive summarization with the relatively simpler objective of generating single sentence summaries rather than multiline summaries <REF>.,79
+"This bottleneck can be addressed by implementing a more sophisticated natural language recognition system, for instance, BERT <REF>.",80
+Word embeddings models like skip-gram <REF> and contextual embedding models like BERT  have proved the crucial role of good text representations in NLP tasks.,81
+"Recently contextual text representation models like ELMo <REF>, BERT  and OpenAI GPT  have pushed the state-of-the-art results of various NLP tasks.",82
+"ImageNet Large Scale Visual Recognition Challenge (ILSVRC), which collects more than 1.2 million varied images, has inspired the development of a series of deep learning models <REF>.The last hidden layer signals of deep models are widely used as image feature embeddings for transfer learning ; the upper-layers of deep models can also be fine-tuned for different tasks.",83
+It is therefore surprising that BERT <REF> achieves 77% test set accuracy with its best run   : Baselines and BERT results.,84
+It is therefore surprising that BERT <REF> achieves 77% test set accuracy with its best run   : Baselines and BERT results.,85
+These word embeddings are typically trained on large corpora using embedding approaches which capture information concerning words that commonly appear together <REF>.,86
+"Most of such approaches, including those used in previous studies on dialog act recognition, generate embeddings for each word independently of its context <REF>.",87
+"However, the meaning of a word and, consequently, how it contributes for the meaning of a segment, is highly influenced by both its sense and context <REF>.",88
+"However, the meaning of a word and, consequently, how it contributes for the meaning of a segment, is highly influenced by both its sense and context <REF>.",89
+"The use of contextualized embeddings has led to state-of-the-art results on multiple NLP tasks, such as Named Entity Recognition (NER), Question Answering (QA), and textual entailment <REF>.",90
+"those learned by the Transformer <REF> via language modeling , have been shown to implicitly capture useful semantic and syntactic properties of text solely by unsupervised pre-training , as demonstrated by state-of-the-art performance on a wide range of natural language processing tasks , including supervised relation extraction .",91
+LSTMbased language models <REF> or BERT .,92
+"<REF> introduced embeddings from language models (ELMo), an approach to learn contextualized word representations by training a bidirectional LSTM to optimize a disjoint bidirectional language model objective.",93
+"The models on each classification task are trained and examined using the open-source dataset provided by <REF>, where each task is assigned 100k sentences for training and 10k sentences for validating and testing.",94
+"A comprehensive source for articles on this topic is the PubMed <REF> platform, combining over 29 million citations while providing access to their metadata.",95
+"These word vectors models use multiple different pre-training sources, for instance, Word2Vec <REF> uses English Wikipedia, and BERT  uses both English Wikipedia and BooksCorpus.",96
+"Regarding biomedical RE, LSTMs were successful in identifying drug-drug interactions <REF>, gene-mutation relations , drug-mutation relations , among others.",97
+"Recent work on language understanding has demonstrated the effectiveness of pretraining neural networks on large corpora using unsupervised objectives such as language modelling, and then fine-tuning the resulting models on downstream target tasks <REF>.",98
+"We use the pretrained BERT BASE model, and follow a similar procedure to fine-tune on GLUE to the one described by the BERT authors in <REF>.",99
+"We use the pretrained BERT BASE model, and follow a similar procedure to fine-tune on GLUE to the one described by the BERT authors in <REF>.",100
+"We see large performance gains for MTL on the RTE task in particular as reported in previous work <REF>, however the introduction of our task selection policy is not sufficient to prevent some reduction in performance on CoLA, MNLI matched and STS-B.",101
+"On the other side, deep neural networks have achieved impressive performance on a lot of tasks such as image classification <REF> and machine translation .",102
+"For example, at the time of finalizing the camera ready version of this paper, <REF> showed that a BERT contextualized representation model  trained on scientific text can achieve promising results on the SciCite dataset.",103
+"Recently, pre-trained language models (e.g., * corresponding author ELMo <REF>, BERT ) are considered to be important on a wide range of NLP tasks, such as Natural Language Inference (NLI) and Question Answering (QA).",104
+"Besides those mentioned above, other interesting attention mechanisms include performing multi-round alignment to avoid the problems of attention redundancy and attention deficiency , and using mutual attention as a skip-connector to densely connect pairwise layers <REF>  , which are based on certain word-level or sentence-level models pretrained on large external corpora in certain supervised or unsupervised manners.",105
+"(MRPC) <REF>, where the task is to identify whether or not a pair of sentences have the same meaning ( ).",106
+"For example, the BERT model is typically fine-tuned for 3 or 4 epochs <REF>, however it took over 100 epochs for the test classification ratios of models with more extreme importance weights to stabilise ( ).",107
+SAN has also been shown a useful method for training contextualized word representations <REF>.,108
+BERT <REF> is trained from a large scale corpora by a deep bidirectional Transformer using masked LM tasks.,109
+Similar strategies have also achieved good performance in other medical problems with different types of medical images <REF>.,110
+"Transformers <REF> have shown state of the art performance across a variety of NLP tasks, including, but not limited to, machine translation , question answering , text classification , and semantic role labeling .",111
+"Transformers <REF> have shown state of the art performance across a variety of NLP tasks, including, but not limited to, machine translation , question answering , text classification , and semantic role labeling .",112
+"BERT BERT <REF>) is a single transformer pre-trained on an unsupervised clozestyle ""masked language modeling task"" and then fine-tuned on specific tasks.",113
+"BERT BERT <REF>) is a single transformer pre-trained on an unsupervised clozestyle ""masked language modeling task"" and then fine-tuned on specific tasks.",114
+"The use of an attention mechanism in NLP and in particular neural machine translation (NMT) can be traced back to <REF> and , and most contemporaneous implementations are based on the formulation from .",115
+This limitation is reinforced by context-free word representations 1 (Turney and Pantel 2010; <REF>: methods that encode each word as one point in a vector space of meaning and are thereby unable to account for multiple senses of a word.,116
+"ELMo <REF>) trains representations with stacked bidirectional LSTMs, but still employs task-specific architectures on top of them.",117
+"We incorporate BERT <REF>, a large pre-trained contextualized language model, in our system, as a source of common sense.",118
+"In recent years, deep learning techniques <REF> is applied to semantic parsing  [8] .",119
+"Recently, much progress has been made in generalpurpose language modeling that can be used across a wide range of tasks <REF>.",120
+"Nearly all of the current attentive methods and language models, e.g., BERT <REF>, regard the input sequence as a whole, e.g., a passage, with no consideration of the inner linguistic structure inside each sentence.",121
+"Some prominent examples are Embedding from Language models (ELMo) <REF>, Generative Pre-trained Transformer (OpenAI GPT)  and Bidirectional Encoder Representations from Transformers (BERT)  among which BERT uses a different pre-training objective, masked language model, which allows capturing both sides of context, left and right.",122
+<REF> depicts the whole architecture of our model.,123
+"Following the implementation of BERT <REF>, the first token of every sequence is the special token [CLS] and the sequences are separated by the  token.",124
+"While such embeddings can be directly learned using the GIT model, it has been shown in the field of NLP that the pre-trained word embeddings can significantly improve the performance in other related NLP tasks <REF> .. .",125
+"We propose an ensemble approach composed of two deep learning models, the Hierarchical LSTMs for Contextual Emotion Detection (HRLCE) model and the BERT model <REF>.",126
+"BERT, the Bidirectional Encoder Representations for Transformers, <REF>) is a pretrained model producing context representations that can be very convenient and effective.",127
+This technical note describes a new baseline for the Natural Questions <REF>.,128
+"The release of BERT <REF> has substantially advanced the state-of-the-art in a number of NLP tasks, in question answering in particular.",129
+"Following <REF> we tokenize every example in NQ using a 30,522 wordpiece vocabulary, then generate multiple instances per example by concatenating a ""[CLS]"" token, the tokenized question, a ""[SEP]"" token, tokens from the content of the document, and a final ""[SEP]"" token, limiting the total size of each instance to 512 tokens.",130
+We presented a BERT-based model <REF> as a new baseline for the newly released Natural Questions .,131
+"We finetune BERT <REF>, 3 a recently proposed pre-trained deep bidirectional Transformer , to predict entailment given two sentences as input.",132
+We first calculate the pooled BERT representation <REF> of each of the utterances.,133
+"In recent years many methods have been proposed for vision-language tasks such as image and video captioning <REF>, multimodal retrieval , phrase grounding , and visual question answering .",134
+"<REF>), to our knowledge there exists no comprehensive comparison.",135
+Visual information has been used in limited ways to improve word embeddings such as simply concatenating visual features <REF> or focusing on abstract scenes .,136
+"It is evaluated using Recall@K where K = <REF>, resulting in six numbers which measure the performance of the model (three for image-to-sentence and three for sentence-to-image).",137
+BERT <REF> is currently the state-of-the-art word embedding model.,138
+"Largescale, pre-trained transformer-based language models, such as GPT-2 <REF> and BERT , might be an interesting addition to the baselines, by framing the task as filling in the blanks for post-modifiers.",139
+There has recently been rapid progress in developing contextual word representations that improve accuracy across a range of natural language tasks <REF>.,140
+"Here, we see that pre-training provides benefits for all languages evaluated, and that BERT <REF> outperforms ELMo, which in turn outperforms fastText , which performs slightly better than the non pre-trained baselines.",141
+"to parsing, requires task-specific adaptation via fine-tuning <REF>.",142
+All other hyperparameters are unchanged from Kitaev and Klein (2018) and <REF>.,143
+"As the use of Transformers <REF> has become ubiquitous in recent NLP researches  , we have incorporated this model to our action generation task using our modified network structure.",144
+We employ the pretrained embedding matrix GloVe <REF> and pretrained model BERT  to obtain the fixed word embedding of each word.,145
+"To demonstrate the effectiveness of our proposed method, as most previous works <REF>, we conduct experiments on two datasets from SemEval 2014 Task4 2 , which contains the reviews in laptop and restaurant.",146
+Main-stream MRC models <REF>) extract text spans in passages given queries.,147
+"Various MRC models have been proposed, such as BiDAF <REF> and QANet .",148
+"Over the past year, models based on the Transformer architecture <REF> have become the de-facto standard for state-of-the-art performance on many natural language processing (NLP) tasks .",149
+"One of the most popular Transformer-based models is BERT, which learns text representations using a bi-directional Transformer encoder pre-trained on the language modeling task <REF>.",150
+•  <REF>.,151
+"Advances in techniques and hardware for training deep neural networks have recently enabled impressive accuracy improvements across many fundamental NLP tasks <REF>, with the most computationally-hungry models obtaining the highest scores .",152
+"The BERT model <REF> provides a Transformer-based architecture for building contextual representations similar to ELMo, but trained with a different language modeling objective.",153
+"The BERT model <REF> provides a Transformer-based architecture for building contextual representations similar to ELMo, but trained with a different language modeling objective.",154
+"KERMIT is a simple architecture that directly models the joint distribution p(x, y) and its decompositions (such as the marginals p(x) and p(y) courses proved popular <REF> Die sehr beliebt  The quite {Kurse, waren} : An example of the KERMIT insertion objective for the English ↔ German translation pair ""The courses proved quite popular"" ↔ ""Die Kurse waren sehr beliebt"".",155
+"Then, like its friends ELMo <REF>, BERT , and ERNIE , we can also use KERMIT for self-supervised representation learning for use in downstream NLP tasks.",156
+"In this section, we define some notation and give a brief review of existing sequence models, including autoregressive left-to-right models <REF> and masked language models .",157
+Masked Language Models (MLMs) <REF> comprise another class of models targeting the unconditional setting.,158
+"MLMs have been successfully applied in self-supervised representation learning settings, leading to strong results on downstream language tasks <REF>.",159
+"Since comparing two texts-a mention in context and a candidate entity description-is a task similar to reading comprehension and natural language inference tasks, we use an architecture based on a deep Transformer <REF> which has achieved state-of-the-art performance on such tasks .",160
+"As in BERT <REF>, the mention in context m and candidate entity description e, each represented by 128 word-piece tokens, are concatenated and input to the model as a sequence pair together with special start and separator tokens:",161
+"Examples of this approach include ELMo <REF>, OpenAI GPT , and BERT .",162
+The Masked LM objective <REF> is used for unsupervised pre-training.,163
+"Resources  fine-tuning on the Entity-Linking task, we use a small learning rate of 2e-5, following the recommendations from <REF>.",164
+HPC applications like weather prediction and the modeling of fluid and molecular dynamics have grown to require very large models <REF>.,165
+"Thus far, we have compared the performance of Buddy Compression to an uncompressed, large-memory baseline ( <REF>).",166
+"Recent object detection networks like MegDet <REF> and natural language processing networks like BERT  are unable to fit more than 2-4 input samples per GPU during training, due to memory capacity limits.",167
+"Recent work has shown mounting evidence that pretraining sentence encoder neural networks on unsupervised tasks like language modeling, and then fine-tuning them on individual target tasks, can yield significantly better target task performance than could be achieved using target task training data alone <REF>.",168
+"We apply STILTs to three separate pretrained arXiv:1811.01088v2 [cs.CL] 27 Feb 2019 sentence encoders: BERT <REF>, GPT , and a variant of ELMo .",169
+"In the area of pretraining for sentence encoders, <REF> compare several pretraining tasks for syntactic target tasks, and find that language model pretraining reliably performs well.",170
+A more recent trend of fine-tuning the whole model for the target task from a pretrained state <REF> has led to state-of-the-art results on several benchmarks.,171
+"Pretrained Sentence Encoders We primarily study the impact of STILTs on three sentence encoders: BERT <REF>, GPT  and ELMo .",172
+"We experiment with DOCQA , a standard and popular RC model, as well as a model based on BERT <REF>, which provides powerful contextual representations.",173
+"The first is DOCQA , and the second is based on BERT <REF>, which we term BERTQA.",174
+"BERTQA <REF>: For each chunk, we apply the standard implementation, where the input is a sequence of L = 512 wordpiece tokens composed of the question and chunk separated by special tokens [CLS] <question> [SEP] <chunk> .",175
+"More specifically, these techniques enhanced NLP algorithms through the use of contextualized text embeddings at word, sentence, and paragraph levels <REF>.",176
+"In the present paper, we build a dataset of PIO elements by improving the methodology found in <REF>.",177
+The idea behind this model is to pre-train a bidirectional representation by jointly conditioning on both left and right contexts in all layers using a transformer <REF>.,178
+The first version is based on the original BERT release <REF>.,179
+The model has 12 attention layers and all texts are converted to lowercase by the tokenizer <REF>.,180
+Recent advances in language representation modeling <REF> demonstrate the value of transfer learning from large external data source.,181
+"For subtask A, we use pre-trained word embeddings by fine-tuning the BERT model <REF> for detecting offensive tweets.",182
+Recent models like ELMo <REF> and BERT  significantly advanced the state-of-the-art in language modeling by learning context-sensitive representations of words.,183
+Recent models like ELMo <REF> and BERT  significantly advanced the state-of-the-art in language modeling by learning context-sensitive representations of words.,184
+Recent models like ELMo <REF> and BERT  significantly advanced the state-of-the-art in language modeling by learning context-sensitive representations of words.,185
+"For subtask A, we trained a classifier by finetuning a pre-trained BERT Transformer <REF> with a linear layer for text sequence classification on top.",186
+Punctuations are ignored as in previous work <REF>.,187
+"SQuAD <REF>), the wide adoption and intense experimentation of neural modeling , and the advancements in vector representations of word embeddings  all contribute significantly to the achievements obtained so far.",188
+"Large-scale reading comprehension tasks like SQuAD <REF> and MARCO  provide question-answer pairs from a vast range of written passages, covering different kinds of factual answers involving entities such as location and numerical values.",189
+"We implemented an established model in reading comprehension, a bi-directional attention pointer network <REF>, and equipped it with an answerable classifier, as depicted in .",190
+"In the Gendered Pronoun Resolution challenge which is based on GAP dataset, we designed a unique augmentation strategy for token-level contextual embedding models and applied it to feature based BERT <REF> approach for a 7th place finish.",191
+This is an extension of the reading comprehension task <REF> of selecting an answer phrase to a question given an evidence document.,192
+"Dense vectors are effective for encoding local syntactic and semantic cues leveraging recent advances in contextualized text encoding <REF>, while sparse vectors are superior at encoding precise lexical information.",193
+"To obtain these components of the dense vector, we leverage available contextualized word representations, in particular BERT-large <REF>, which is pretrained on a large corpus (Wikipedia and BookCorpus) and has proved to be very powerful in numerous natural language tasks.",194
+We refer readers to the original paper by <REF> for details; we mostly use the default settings described there.,195
+"The first group are among the models that are submitted to SQuAD v1.1 Leaderboard, specifically DrQA  and BERT <REF> (current state of the art).",196
+"In one of the two classes of models of this type, an encoder-decoder model is learnt using a corpus of contiguous sentences <REF> to make predictions of the words in the next sentence given the words in the current one.",197
+"Speech recognition algorithms <REF>,  convert utterance to text, which can be encoded to a vector sequence using word embedding algorithms , , , , .",198
+"Landmark models include Word2Vec <REF>, , GloVe , ELMo  and BERT .",199
+"Recently, models such as the Convolutional Neural Network (CNN) <REF>, the Recurrent Neural Network (RNN) , memory network  have been introduced for sentiment classification tasks.",200
+"Besides investigating how well our approach translates to other languages, we are interested in studying the results for other pretrained word representation approaches, e.g., BERT <REF>.",201
+Many linguistic theories try to tie these phenomena but they struggle to explain some edge cases and are mutually inconsistent <REF> .,202
+Current state-of-the-art neural networks need extensive computational resources to be trained and can have capacities of close to one billion connections between neurons <REF>.,203
+"However, its indisputable empirical success in a huge variety of tasks, ranging from image classification <REF> and image generation  over natural language processing  to playing complex games , is confronted with lack of explainability .",204
+"In the particular case of natural language processing (NLP), the state-of-the-art models proposed in the last year are based on a deep architecture, the Transformer <REF>, which heavily relies on an operation called self-attention.",205
+"• Visualizations/Interpretations that link the attention weights to attention between words, when in fact the attention is between embeddings, i.e., mixtures of multiple words <REF> • Attention accumulation methods that sum the attention to a specific sequence position over layers and/or attention heads, when the given position might encode a different mixture of inputs in each layer  • Using classifiers to probe embeddings for word specific aspects without investigating to which extent the word is still represented in the hidden embedding  As the amount of research in this area is quite substantial, we aim to provide a quantitative analysis of the degree to which hidden embeddings correspond to given input tokens.",206
+"We contribute in this paper with a new attribution method to quantify the mix of hidden embeddings with respect to the input tokens as well as an analysis of BERT <REF>, measuring the influence of input tokens to the contextual embeddings at the same sentence position.",207
+"The original Transformer model was introduced by <REF> and consists of an encoder and a decoder, both in turn consisting of a series of multi-head self-attention layers.",208
+"Recent work on transformer networks <REF> trained on massive written text corpora have repeatedly demonstrated step changes in performance on several tasks including text summarization, question answering (Q&A), intent classification, natural language inference (NLI), as well as in zero-shot settings, in which they generalize to new tasks and new data without being pre trained on that data or those tasks.",209
+"Recent work on transformer networks <REF> trained on massive written text corpora have repeatedly demonstrated step changes in performance on several tasks including text summarization, question answering (Q&A), intent classification, natural language inference (NLI), as well as in zero-shot settings, in which they generalize to new tasks and new data without being pre trained on that data or those tasks.",210
+The Language Model (LM) discussed in this paper builds upon the Char-CNN-LSTM architecture proposed in <REF>.,211
+the word-piece tokens in <REF> due to the resilience character level models have to spelling errors in the input text.,212
+"To generate semantically altered text samples, we leverage the BERT language model <REF>, which was trained on the BookCorpus and English Wikipedia corpora, totalling 3.3B words.",213
+Generative pretraining of sentence encoders <REF> has led to strong improvements on numerous natural language understanding benchmarks .,214
+Our work builds on top of <REF>; ;  who investigate language modeling for pretraining Transformer encoders.,215
+"We also consider the masked language modeling (MLM) objective of <REF>, also known as the Cloze task .",216
+"We also consider the masked language modeling (MLM) objective of <REF>, also known as the Cloze task .",217
+"We also consider the masked language modeling (MLM) objective of <REF>, also known as the Cloze task .",218
+"To this end, we compare two state-of-the-art pretrained models, ELMo <REF> and BERT  using both and across seven diverse tasks including named entity recognition, natural language inference (NLI), and paraphrase detection.",219
+Masked LM and next-sentence prediction BERT <REF> combines both word and sentence representations (via masked LM and next sentence prediction objectives) in a single very large pretrained transformer .,220
+"For the sentence pair tasks, we compute cross-sentence bi-attention between the LM states <REF>, apply a pooling operation, then add a softmax layer.",221
+Fine-tuning ( ): BERT We feed the sentence representation into a softmax layer for text classification and sentence pair tasks following <REF>.,222
+"In the case of BERT, the output layer is a softmax to be consistent with the fine-tuned experiments presented in <REF>.",223
+Pre-trained word embeddings have been shown to be of great use for downstream NLP tasks <REF>.,224
+We also consider the masked language modeling (MLM) objective of <REF>.,225
+We experimentally found that using the last four layers as proposed in <REF> for the feature-based approach does not work well.,226
+"Recent work shows that DNNs are fragile, where a small perturbation could dramatically change their prediction results <REF>.",227
+"To this end, <REF> organized a shared task specifically on suggestion mining called SemEval 2019 Task 9: Suggestion Mining from Online Reviews and Forums.",228
+"Language Model Pretraining Inspired from the computer vision field, where ImageNet <REF>) is used to pretrain models for other tasks , many recent attempts in the NLP community are successful on using language modeling as a pretraining step to extract  feature representations , and to fine-tune NLP models .",229
+"Language Model Pretraining Inspired from the computer vision field, where ImageNet <REF>) is used to pretrain models for other tasks , many recent attempts in the NLP community are successful on using language modeling as a pretraining step to extract  feature representations , and to fine-tune NLP models .",230
+"Language Model Pretraining Inspired from the computer vision field, where ImageNet <REF>) is used to pretrain models for other tasks , many recent attempts in the NLP community are successful on using language modeling as a pretraining step to extract  feature representations , and to fine-tune NLP models .",231
+BERT-based Encoder Fine-tuning a pretrained BERT <REF> classifier then using the separately produced classification encoding [CLS] has shown to produce significant improvements.,232
+"Second, we show that transfer learning techniques such as BERT <REF> and ULMFiT  can be used to train robust classifiers in low-resource settings, experiencing at most a 0.0782 increase in error when the number of training examples is reduced from 10K to  We open source all pretrained models and datasets in an open, public repository 1 .",233
+"We use two transfer learning techniques, namely BERT <REF> and .",234
+"BERT is a transformer-based <REF> language model that is designed to pretrain ""deep bidirectional representations"" that can be finetuned to different tasks, with state-of-the-art results achieved in multiple benchmarks .",235
+"Adapted from <REF> modeling,"" which masks a number of words in the sentence with the model tasked to identify them .",236
+"Adapted from <REF> modeling,"" which masks a number of words in the sentence with the model tasked to identify them .",237
+This paper describes a language representation model which combines the Bidirectional Encoder Representations from Transformers (BERT) learning mechanism described in <REF> with a generalization of the Universal Transformer model described in .,238
+Several state of the art results in multiple NLP tasks were obtained recently by relying on pretrained language models <REF>.,239
+We then continue the loss calculation as described in <REF>.,240
+"In this paper we described a system that combines the loss function derived from <REF> with a recurrent variant of the Transformer architecture, called Universal Transformer.",241
+"Approaches to sentiment analysis have moved from lexicon-based methods <REF>, to machine learning methods based on hand derived features  and finally to neural networks that learn to extract useful features in an end-to-end fashion .",242
+• BOW: a L2-regularized logistic regression model trained on a bag-of-words representation <REF>.,243
+"One of the pioneering contextualized word embedding models is Context2Vec <REF>, which computes the embedding for a word in context using a multi-layer perceptron which is built on top of a bidirectional LSTM  language model.",244
+"The arrival of modern language models like ELMo <REF>, BERT , and GPT , have significantly advanced the state-of-the art in a wide range of NLP problems.",245
+ProBERT uses a fine-tuned BERT language model <REF> with a classification head on top to serve as baseline.,246
+ProBERT uses a fine-tuned BERT language model <REF> with a classification head on top to serve as baseline.,247
+"Such a model can also take advantage of recent advances in representation learning, such as BERT <REF>, in defining this similarity.",248
+"Retrieval-based approaches to structured prediction appear particularly compelling now with the recent successes in contextualized word embedding <REF>, which should allow for expressive representations of sentences and phrases, which in turn allow for better retrieval of neighbors for structured prediction.",249
+"2 While recent sequence labeling models <REF>, often model inter-label dependence with a first-order CRF ,  have recently shown that excellent performance can be obtained by modeling labels as conditionally independent given a sufficiently expressive representation of x.",250
+x <REF> .,251
+"Accordingly, our first set of experiments consider several standard sequence-labeling tasks and datasets, namely, POS tagging the Penn Treebank <REF> with both the standard Penn Treebank POS tags and Universal POS tags , and the CoNLL 2003 NER task .",252
+ELMo <REF> and BERT  enhance the representations by pre-training language models.,253
+"• We apply transfer learning techniques, finetuning BERT <REF> and XLM ) models in a predictor-estimator architecture.",254
+"Following the recent trend in the NLP community leveraging large-scale language model pretraining for a diverse set of downstream tasks, we used two pre-trained language models as feature extractors, the multilingual BERT <REF> and the Cross-lingual Language Model (XLM) .",255
+"<REF> We achieve the best reported performance among methods not using the recently introduced ELMo  and BERT , which are pretrained on extra-large corpora and computationally demanding.",256
+Further improvements are possible by incorporating a pretrained BERT <REF> encoder within the architecture.,257
+"BERT For some of our experiments, we evaluated incorporating a pre-trained BERT <REF> encoder by effectively using the output of the BERT encoder in place of a learned token embedding table.",258
+"We used BERT LARGE <REF>, which has 24 layers.",259
+Our experiments build upon recent success in self-supervised pre-training <REF> and multi-task fine-tune BERT  to perform the tasks from the GLUE natural language understanding benchmark .,260
+All of our models are built on top of BERT <REF>.,261
+Single-task training is performed as in <REF>.,262
+BERT-Base <REF> 78.5 BERT-Large  80.5 BERT on STILTs  82.0 MT-DNN  82.,263
+BERT-Base <REF> 78.5 BERT-Large  80.5 BERT on STILTs  82.0 MT-DNN  82.,264
+"Recently, deep pre-trained language models (LMs) <REF> have shown to be capable of extracting textual representations that contain very rich syntactic and semantic information about the text sequences.",265
+"Particularly, we investigate the use of BERT <REF> for assisting the training of Tacotron-2 .",266
+"In this section, we start with introducing BERT <REF> and Tacotron-2 .",267
+"For domain adaption, we started with the BERT based model trained on Wikipedia <REF> to leverage contextual word embeddings from a large language model.",268
+"Firstly, to better capture sentential meaning and compute sentence similarity, we employ BERT <REF>, a neural representation learning model which has obtained state-of-the-art results on various natural language processing tasks including textual inference, question answering, and sentiment analysis.",269
+There are many variations of the similarity function of TextRank <REF> based on symbolic sentence representations such as tf-idf.,270
+We use BERT (Bidirectional Encoder Representations from Transformers; <REF> to map sentences into deep continuous representations.,271
+We used the publicly released BERT model 3 <REF> to initialize our sentence encoder.,272
+The second block in <REF> presents the results of the LEAD-3 baseline (which simply creates a summary by selecting the first three sentences in a document) as well as various instantiations of 3 https://github.com/google-research/ bert  TEXTRANK .,273
+"Plenty of data sets have been constructed to facilitate research on this topic, such as SQuAD <REF>, NarrativeQA  and CoQA .",274
+It was shown that contemporary Long-Short Term Memory (LSTM) or Gated Recurrent Units (GRU) models can take into account the longterm dependencies between words <REF>.,275
+Sentiment analysis is a well-studied task in the field of natural language processing and information retrieval <REF>.,276
+"Since BERT finetunes all of its layers, we only train for 3 epochs as suggested by <REF>.",277
+"Deep, contextualized language models provide powerful, general-purpose linguistic representations that have enabled significant advances among a wide range of natural language processing tasks <REF>.",278
+"We explore this question using Multilingual BERT (henceforth, M-BERT), released by <REF> as a single language model pre-trained on the concatenation of monolingual Wikipedia corpora from 104 languages.",279
+"Like the original English BERT model (henceforth, EN-BERT), M-BERT is a 12 layer transformer <REF>, but instead of be-  ing trained only on monolingual English data with an English-derived vocabulary, it is trained on the Wikipedia pages of 104 languages with a shared word piece vocabulary.",280
+"For NER and POS, we use the same sequence tagging architecture as <REF>.",281
+"The presented system is based on text embeddings, namely NNLM [1] and BERT <REF>.",282
+"We used Bidirectional Encoder Representations from Transformers -BERT <REF>, more specifically, the multi cased L-12 H-768 A-12 model trained on Wikipedia and the BookCorpus.",283
+"In addition to BERT <REF>, we tried to use other models for embeddings generation, namely nnlm , elmo , doc2vec , word2vec  and universal-sentenceencoder .",284
+"<REF> utilized convolutional neural networks (CNNs) for phrase normalization in user reviews, while ,  applied recurrent neural networks (RNNs) to UGTs, achieving similar results.",285
+"(3) a contextualized word representation model BERT <REF>, which is a multilayer bidirectional Transformer encoder.",286
+"The growing interest in teaching machines to answer questions posed in natural language has led to the introduction of various new datasets for different tasks such as reading comprehension, both extractive, e.g., span-based <REF>, and non-extractive, e.g., multiple-choice questions .",287
+"Most previous work <REF> was monolingual, and a relevant context for each question was available a priori.",288
+"• We study the effectiveness of zero-shot transfer from English to Bulgarian for the task of multiple-choice reading comprehension, using Multilingual and Slavic BERT <REF>, fine-tuned on large corpora, such as RACE .",289
+Current state-of-the-art approaches in machine reading comprehension are grounded on transfer learning and fine-tuning of language models <REF>.,290
+Current state-of-the-art approaches in machine reading comprehension are grounded on transfer learning and fine-tuning of language models <REF>.,291
+"Pre-trained contextualized embeddings such as ELMo <REF>, GPTs  and BERT  give improvements on a range of natural language processing tasks by offering rich language model information.",292
+"Self-attention networks <REF> have shown promising empirical results in a variety of natural language processing (NLP) tasks, such as machine translation , semantic role labelling , and language representations .",293
+"RNN, SAN, and DiSAN) are consistent with previous findings on other benchmark NLP tasks <REF>.",294
+The detection results are concluded in <REF>.,295
+Exploring Properties of SAN SAN has yielded strong empirical performance in a variety of NLP tasks <REF>.,296
+"Named Entity Recognition (NER) is a foremost NLP task to label each atomic elements of a sentence into specific categories like ""PER-SON"", ""LOCATION"", ""ORGANIZATION"" and others <REF>.",297
+"Word2Vec <REF>, GloVe , fastText , etc), or 3) external sentence embedding resource (i.e.",298
+It should be noted that some methods <REF> randomly mask or replace a few of the tokens at the input layer to force the model to keep a contextual representation of every input token.,299
+We investigate the recently developed Bidirectional Encoder Representations from Transformers (BERT) model <REF> for the hyperpartisan news detection task.,300
+"BERT has been used to learn useful representations for a variety of natural language tasks, achieving state of the art performance in these tasks after being fine-tuned <REF>.",301
+BERT is a deep bidirectional transformer that has been successfully tuned to a variety of tasks <REF>.,302
+<REF> shows that the model consistently performed best at a sequence length of 100.,303
+"The most popular approaches were to enhance the standard BLSTM-CRF architecture <REF>, to pretrain an LSTM-based language model or to use transformer-based solutions .",304
+"Most participating systems did not use any token-level features other than word embeddings, character-level embeddings, or language model embeddings <REF>.",305
+"As the modules in <REF> has less coupling to one another, it is flexible to improve or customise each of them.",306
+"Traditional word embeddings, like Word2Vec and GloVe, merge different meanings of a word in a single vector representation <REF>.",307
+"In this work, we perform an extensive comparison of existing static and dynamic embeddingbased meaning representation methods on the usage similarity (Usim) task, which involves estimating the semantic proximity of word instances in different contexts <REF>.",308
+"Due to its high reliance on context, Usim can be viewed as a semantic textual similarity (STS) <REF> task with a focus on a specific word instance.",309
+BERT (Bidirectional Encoder Representations from Transformers) <REF>.,310
+"Context prediction is also a popular representation learning approach in natural language processing, with wellknown examples such as word2vec <REF>, ELMo  and BERT .",311
+"Recently, large models pre-trained on multiple tasks with vast amounts of data, for instance BERT and MT-DNN <REF>, have obtained stateof-the-art results when fine-tuned over a small set of training samples.",312
+"Recently, large models pre-trained on multiple tasks with vast amounts of data, for instance BERT and MT-DNN <REF>, have obtained stateof-the-art results when fine-tuned over a small set of training samples.",313
+"In this work, the parameters of WordCaps are trained with the whole model, while sophisticated pretrained models such as ELMo <REF> or BERT  may also be integrated.",314
+"Considering that the essence of coherence is semantic relevance between two inputs and many deep learning based approaches have demonstrated their superiority at capturing semantic relevance, such as DSSM <REF>, SMN  and BERT , we use a symmetric neural network for the coherence assessment in this paper.",315
+The NLP community is revisiting the role of linguistic structure in applications with the advent of contextual word representations (CWRs) derived from pretraining language models on large corpora <REF>.,316
+"Our architecture and methods are general enough to be adapted for richer inductive biases, such as those given by full syntactic trees (RNNGs; , or to different pretraining objectives, such as masked language modeling (BERT; <REF>; we leave this pursuit to future work.",317
+"For example, <REF> proposed neural machine-reading models that constructed dynamic knowledge graphs from procedural text.",318
+"More recently, <REF> introduced the transformer model as a more sophisticated architecture for sequence to sequence transduction.",319
+"More recently, <REF> introduced the transformer model as a more sophisticated architecture for sequence to sequence transduction.",320
+Contextualized encoders such as GPT <REF> and BERT  have led to improvements on various structurally similar Natural Language Understanding (NLU) tasks such as variants of Natural Language Inference (NLI).,321
+"As yet another extension, one could combine the approaches of multilingual CoVe embeddings and monolingual ELMo (or BERT, <REF> embeddings and jointly train an encoder with a language model and an MT objective, which would potentially combine the benefit of training a model on large monolingual corpora while at the same time aligning the vector spaces of the two languages.",322
+Most frequently used word embeddings are word2vec <REF> and GloVe (Global Vectors for Word Representation) .,323
+"For future work, we plan to run similar experiments using recently introduced contextual embeddings, (e.g., <REF>, BERT , OpenAI GPT-2 (Radford et al., 2019)), which are expected to implicitly capture more syntax than context-free embeddings used in the current paper.",324
+"In the general domain, we have recently observed that the General Language Understanding Evaluation (GLUE) benchmark <REF> has been successfully promoting the development of language representations of general purpose .",325
+"To better understand the challenge posed by BLUE, we conduct experiments with two baselines: One makes use of the BERT model <REF> and one makes use of ELMo .",326
+"Different from word embeddings, it allows the meaning of a word to change according to the context in which it is used <REF>.",327
+"BERT <REF>) is a contextualized word representation model that is pre-trained based on a masked language model, using bidirectional Transformers .",328
+"PubMed abstract > 4,000M Biomedical MIMIC-III > 500M Clinical We initialized BERT with pre-trained BERT provided by <REF>.",329
+"Recent approaches to transfer learning in NLP have a empted to improve classifier scalability by first training an initial model to perform some task using a large training set, and subsequently fine-tuning the model for different tasks with smaller additional training sets <REF>.",330
+"Even more interestingly, it has been shown that word embeddings and language models trained on a large generic corpus and then optimized for downstream NLP tasks produce even better results than training the entire model only to solve this one task <REF>.",331
+"We explore four recent models: ELMo, a language model by <REF>, BERT, a transformer by , USE (Universal Sentence Encoder) a sentence encoder by , and T-XL (Transformer-XL) a transformer that includes a recurrence mechanism by .",332
+"• BERT is a bidirectional model of stacked transformers that is trained to predict whether a given sentence follows the current sentence, in addition to predicting a number of input words that have been masked <REF>.",333
+"Prior work along this line can be roughly divided into two categories: i) pre-trained models that require fine-tuning on the specific transferring task <REF>; ii) methods that extract general-purpose sentence embeddings, which can be effectively applied to downstream NLP tasks without finetuning the encoder parameters .",334
+"Common approaches address the ID and SF tasks in joint Deep Learning architectures (e.g., <REF>).",335
+"BERT is a Transformer Encoder <REF>, whose main building block is depicted in figure 2.",336
+"The SF performance of Bert-Slot is in line, but still higher with respect to <REF>.",337
+"This result is interesting because it echoes results from natural language processing, where unsupervised features such as word2vec <REF> and BERT  provide strong performance across many tasks without retraining, which simplifies training pipelines and reduces computational requirements.",338
+"Ensemble learning is an effective approach to improve model generalization, and has been used to achieve new state-of-the-art results in a wide range of natural language understanding (NLU) tasks, including question answering and machine reading comprehension <REF>.",339
+"Ensemble learning is an effective approach to improve model generalization, and has been used to achieve new state-of-the-art results in a wide range of natural language understanding (NLU) tasks, including question answering and machine reading comprehension <REF>.",340
+"Lexicon Encoder (l 1 ): The input X = {x 1 , ..., x m } is a sequence of tokens of length m. Following <REF>, the first token x 1 is always the [CLS] token.",341
+"GLUE is a collection of nine NLU tasks as in <REF>, including question answering, sentiment analysis, text similarity and textual entailment.",342
+"BERT LARGE This is the large BERT model released by <REF>, which we used as a baseline.",343
+"As seen in <REF>, for the usual 10-fold analysis the simple classifiers suggested here are on par with the best and more complex classifier reported in Rad and .",344
+"As the book is too small to train any models, we leverage recent advances in large-scale language model-based representations <REF> to compute a representation of each city.",345
+"We experiment with three different pretrained representations: ELMo <REF>, BERT , and GloVe .",346
+"Our synthetic data generation models, for both question generation and answer extraction, can be fully reproduced by finetuning a publicly available BERT model <REF> on the extractive subsets of SQuAD2 and NQ.",347
+with BERT <REF>.,348
+We use BERT <REF> * to model each of these distributions.,349
+"Despite the success of the co-attention models in multiarXiv:1908.04107v2 [cs.CV] 19 Aug 2019 modal learning tasks, these models only consider inter-modal interactions (i.e., A T V or A T V in <REF>) while neglecting intra-modal ones (i.e., A T T and A V V ).",350
+"Inspired by the self-attention model which has achieved remarkable performance in natural language processing <REF>[45] , we design a unified attention model for multimodal data.",351
+"The input question is first tokenized into a sequence of words, and then trimmed (or zero padded) to a maximum length of m. Similar to <REF>, we add a dummy token [ans] at the beginning of the question, and the attended feature of this token will be used to predict the answer.",352
+"First, we explore the effectiveness of the gating mechanism for the UA block with respect to different number of block L. In <REF>, we report the overall accuracies of the MUAN-L models (L ranges from 2 to 12) with the gating mechanism (i.e., Eq.",353
+"We use the BERT model (Bidirectional Encoder Representations from Transformers, <REF> as our base pre-trained model.",354
+"On the GLUE benchmark, we show that PALs enable comparable performance to finetuned BERT-base (the smaller of the two models considered by <REF>) on many tasks with ≈7 times fewer parameters.",355
+"We used the same BERT-base architecture as by <REF>, twelve attention heads, d f f = 3072 and d m = 768 (see section 3.1).",356
+Like <REF> we exclude the Winograd NLI task.,357
+the performance of BERT-large vs. BERT-base <REF> or the ablation study by .,358
+"An emerging trend in natural language processing is to train a language model in an unsupervised fashion on a large corpus of text, and then to fine-tune the model for a specific task <REF>].",359
+<REF>] describes a hash embedding scheme where the output embedding for a feature is a weighted sum between the embedding vectors and the weight vector.,360
+"The capability of deep neural models of handling complex dependencies has benefited various artificial intelligence tasks, such as image recognition where test error was reduced by scaling VGG nets <REF> up to hundreds of convolutional layers .",361
+It heavily relies on the combination of residual connections <REF> and layer normalization  for convergence.,362
+This negative effect explains why the decoder suffers from more severe gradient vanishing than the encoder in <REF>.,363
+Denoising auto-encoders <REF> are commonly used for model initialization to extract and select features from inputs.,364
+"VisualBERT integrates BERT <REF>, a recent Transformer-based model  for natural language processing, and pretrained object proposals systems such as Faster-  and it can be applied to a variety of vision-and-language tasks.",365
+"Our work is inspired by BERT <REF>, a Transformer-based representation model for natural language.",366
+BERT <REF>) is a Transformer  with subwords  as input and trained using language modeling objectives.,367
+"For all tasks, we use the Karpathy train split <REF> of COCO for task-agnostic pre-training, which has around 100k images with 5 captions each.",368
+"Following <REF>, we optimize all models using .",369
+Pre-trained embeddings such as word embeddings <REF> and sentence embeddings  have become fundamental NLP tools.,370
+"Considering both effectiveness and efficiency, we employ the Transformer encoder <REF> to learn the textual relation embedding.",371
+"Language representation pre-training <REF> has been shown effective for improving many natural language processing tasks such as named entity recognition, sentiment analysis, and question answering.",372
+"Language representation pre-training <REF> has been shown effective for improving many natural language processing tasks such as named entity recognition, sentiment analysis, and question answering.",373
+BERT <REF> uses two different pretraining tasks for language modeling.,374
+The Cross-lingual Natural Language Inference (XNLI) corpus <REF> is a crowdsourced collection for the MultiNLI corpus.,375
+"For example, convolutional neural network (CNN) <REF> is capable of capturing key words in the sentences, while recurrent neural network (RNN)  is proven to have better performance at modeling long dependencies among text, and so on.",376
+"For example, convolutional neural network (CNN) <REF> is capable of capturing key words in the sentences, while recurrent neural network (RNN)  is proven to have better performance at modeling long dependencies among text, and so on.",377
+"BERT is a language model built upon bidirectional training a popular attention model, Transformer <REF>.",378
+"For fine-tuning of the target model, we keep most of the hyperparameters the same as pre-traning in <REF>, except for batch size, learning rate, and train epochs.",379
+"Recently, deep learning models have been proposed to learn powerful input representations for text classification <REF> as well as the XMC problem .",380
+"XML-CNN <REF> employed CNN models on the text input, while AttentionXML  and HAXMLNet  used attention models to extract the embeddings from text inputs.",381
+Bidirectional Encoder Representations from Transformers (a.k.a BERT <REF>) stands as the latest developments in this direction that significantly outperforms many predecessors such as the Generative Pretrained Transformer (GPT)  and Embeddings from Language Models (ELMo) .,382
+"Following the setting of <REF>, we begin with the pre-trained BERT model with 12 layers of Transformer blocks and take the final hidden state of the [CLS] input token as document embedding v ∈ R u , as shown in .",383
+"We thereby compare more traditional approaches, such as a linear classifier on top of TF-IDF features with very recent transfer learning methods, namely ULMFit <REF> and BERT .",384
+<REF> have become a popular alternative to bag-of-word representations.,385
+"As opposed to ULMFit which uses an AWD-LSTM for the language model, BERT (Bidirectional Encoder Representations from Transformers) <REF> builds on top of transformers, which are attentionbased neural network building blocks, recently proposed in .",386
+"We followed the unsupervised training approach in <REF> to train two MT systems, one for EN↔GU and a second for HI→GU.",387
+"External Transferable Knowledge and Learning schemas Clearly, the improvement in accuracy and performance is not merely because of the shift from feature engineering to structure engineering, but the flexible ways to incorporate external knowledge <REF> and learning schemas to introduce extra instructive constraints .",388
+"Specifically, these models differ in the types of architectures (Encoders: CNN, LSTM, Transformer <REF>; Decoders: auto-regressive 3 , non auto-regressive), external transferable knowledge (GloVe , BERT , NEWSROOM ) and different learning schemas (supervised learning and reinforcement learning).",389
+"The success of neural network-based models on NLP tasks cannot only be attributed to the shift from feature engineering to structural engineering, but the flexible ways to incorporate external knowledge <REF>.",390
+"Unsupervised transferable knowledge Two typical unsupervised transferable knowledge are explored in this paper: context independent word embeddings <REF> and contextualized word embeddings , have put the state-of-the-art results to new level on a large number of NLP taks recently.",391
+"First, we employ fastText embeddings <REF> mapped to a multilingual space in a supervised fashion (Conneau et al.,  2017).",392
+"Latest works such as <REF> empirically find that transformer can outperform LSTMs by a large margin, and the success is mainly attributed to selfattention.",393
+"The specific embedding model we use is BERT <REF>, a so-called transformer architecture which captures relations among words in an unsupervised fashion with the help of an attention mechanism .",394
+BERT 7 <REF> is a state-of-theart supervised sentence embedding approach based on the Transformer architecture.,395
+"Our approach for both task 1 and task 2 is based on the state-of-the-art natural language understanding model MT-DNN <REF>, which combines the strength of multi-task learning (MTL) and language model pre-training.",396
+We base our model on the state-of-the-art natural language understanding model MT-DNN <REF>.,397
+"• BERT: Since MT-DNN is based off of the BERT <REF> model as the encoder, we also compare results using just the pre-trained BERT.",398
+The importance of attending to both past and future tokens is apparent in self-attention architectures such as the Transformer <REF>.,399
+We implement BISON based on the BERT Pytorch code 1 and initialize with the pre-trained BERT model BERT-BASE-UNCASED <REF> .,400
+We implement BISON based on the BERT Pytorch code 1 and initialize with the pre-trained BERT model BERT-BASE-UNCASED <REF> .,401
+Bidirectionality is one of the crucial ingredients in the success of the recently proposed unsupervised language model BERT <REF>.,402
+Bidirectionality is one of the crucial ingredients in the success of the recently proposed unsupervised language model BERT <REF>.,403
+"Building off improved models like the transformer <REF>, recent work has pushed models with parameter counts numbering in the billions and consume larger data sets to yield new state-of-the-art figures on held-out data .",404
+"Recently, a novel attention-based network architecture named Transformer was proposed in <REF>.",405
+A well-known example is bi-directional encoder representations from Transformers (BERT) <REF>.,406
+"Recently, there is a growing interest in applying MTL to representation learning using deep neural networks (DNNs) <REF> for two reasons.",407
+"Recently, there is a growing interest in applying MTL to representation learning using deep neural networks (DNNs) <REF> for two reasons.",408
+"Lexicon Encoder (l 1 ): The input X = {x 1 , ..., x m } is a sequence of tokens of length m. Following <REF>, the first token x 1 is always the [CLS] token.",409
+Transformer Encoder (l 2 ): We use a multilayer bidirectional Transformer encoder <REF> to map the input representation vectors (l 1 ) into a sequence of contextual embedding vectors C ∈ R d×m .,410
+The pretraining stage follows that of the BERT model <REF>.,411
+"This, in turn, makes the model architecture simpler, easy to understand and renders the task network agnostic, allowing for easier plug and play using existing components, such as pre-trained contextual word embeddings <REF>, etc.",412
+"Note on pre-trained contextual word embedding: Although our framework easy integration of contextual pre-trained embeddings, like BERT <REF> and EMLo  by replacing the word contextualization component, however, in order to reduce model obfuscation and to have fair comparison against baselines, we exclude them in our experimentation.",413
+Undirected neural sequence models such as BERT <REF> have recently brought significant improvements to a variety of discriminative language modeling tasks such as questionanswering and natural language inference.,414
+BERT <REF> is a masked language model: It is trained to predict a word given the word's left and right context.,415
+"Word2vec <REF>, which extracts knowledge from unannotated texts, has been one of the major advancements in natural language processing.",416
+BioBERT basically has the same structure as BERT <REF>.,417
+"BERT <REF> is a contextualized word representation model, which is pre-trained based on a masked language model using bidirectional Transformers.",418
+We list the tested pre-training corpus combinations in <REF>.,419
+"Following the work of <REF>, BERT was pre-trained for 1,000,000 steps on English Wikipedia and BooksCorpus.",420
+"The ImageNet <REF>), a collection of more than 1.5 million labelled images distributed over 1, 000 classes, facilitates the development of new model such as ResNet  that surpasses human performance in image recognition.",421
+"We make use of BERT <REF>), a language model using bidirectional encoder representations from transformers, in a sentence-classification configuration.",422
+"<REF>, or an existing single model must be able to productively incorporate question classification information.",423
+"We lightly tuned hyperparameters on the development set surrounding those reported by <REF>, and ultimately settled on parameters similar to their original work, tempered by technical limitations in running the BERT-Large model on available hardware: maximum sequence length = 128, batch size = 16, learning rate: 1e-5.",424
+"As shown in <REF>,  In practice, we usually perform the masking operation for items in a user session with γ =30 to 40 percent.",425
+Customer co-view and co-purchase information can be directly used to build product embedding such that products with similar browse or purchase history will share similar vectors <REF>.,426
+"During training, U is generated from the catalog data of 40 million products, the dimension of the hidden layer is 32 for the attention module, 64 for φ(U ), and the model parameters are optimized via Adam Optimizer <REF>.",427
+"More recently, the pre-trained language models, such as ELMo <REF>, OpenAI GPT , and BERT , have shown their effectiveness to alleviate the effort of feature engineering.",428
+"BERT <REF> is a new language representation model, which uses bidirectional transformers to pre-train a large corpus, and fine-tunes the pre-trained model on other tasks.",429
+"On the other hand, it can be seen from the amazing improvement of the BERT model on the QA and NLI tasks <REF>) that the BERT model has an advantage in dealing with sentence pair classification tasks.",430
+"Concurrently, the NLP community continues to build better contextual text representations such as ELMo <REF> and BERT .",431
+"In pretrained DNN i-vector systems <REF>, the DNN gives a distribution over classes of context-dependent phones, which are then aggregated into sufficient statistics for i-vector training.",432
+"Given recent work that combining CNNs with BLSTMs before SAP improves LR performance <REF>, we propose using dilated convolutions to capture local extraction and a wide temporal receptive field without resorting to recurrent layers.",433
+"One could relax the supervised ASR task to semi-supervised or self-supervised learning, as is done with language representation modeling <REF>.",434
+"Benchmarks and training data for such an event completion task are provided by Spitz and Gertz <REF>, who used it to evaluate ranking in entity cooccurrence networks.",435
+"As far as we are aware, text generation with the state-of-the-art quality-diversity trade-off can be achieved with vanilla Transformer or Transformer-XL with beam search (for translation and chatbot) or temperature-tuned decoding, depending on the task of interest <REF>.",436
+"In the natural language processing (NLP) community, neural network language models have been applied successfully to improve various downstream applications <REF>, , including commonsense reasoning.",437
+"We are also currently investigating the integration of recent, larger, masked language models, such as BERT <REF>, into our framework.",438
+Natural language processing (NLP) has achieved significant advances in reading comprehension tasks <REF>.,439
+"It is nonetheless worth discussing again why we would want to use latent variable models in the first place, especially given that from a pure performance standpoint, models that do not formally make use of latent variables such as LSTMs and transformer networks are incredibly effective <REF>.",440
+"Recently-proposed attention mechanisms in deep neural network models have also shown great promise in learning to predict complex time-series data <REF>, .",441
+The Transformer <REF> is a state-of-the-art neural network architecture for NLP tasks like machine translation .,442
+"In two such cases <REF>, , SOTA results have been achieved for multiple tasks, while using text classification vectors of equal size to the (single token) embedding.",443
+"In two such cases <REF>, , SOTA results have been achieved for multiple tasks, while using text classification vectors of equal size to the (single token) embedding.",444
+"For each level of the DVT, we perform the Masked Language Modeling task described in <REF>.",445
+"For each level of the DVT, we perform the Masked Language Modeling task described in <REF>.",446
+"This task is a generalization of what is referred to in <REF> as the ""Next Sentence Prediction"" task and is meant to replace it, both for the token level and higher levels of the DVT.",447
+"At the moment, the most exciting developments in mastering language are coming from the frontier of deep learning and unsupervised language models <REF>.",448
+"In this paper we use Bidirectional Encoder Representations from Transformers (BERT) <REF> as the transformer-based encoder, but this solution is not limited to using BERT alone.",449
+"Another successful neural network paradigm is the attention mechanism <REF>, which has been extremely useful in tackling many machine learning tasks , particularly sequence-based tasks .",450
+"Learned, or distributed, word vector representations <REF> replaced one-hot encodings.",451
+"Much of the recent NLP research has focused on transfer learning techniques such as pre-training word embeddings <REF>, or pre-training language models on larger datasets and fine-tuning them for task-specific learning .",452
+"More recently, pre-trained language models such as BERT have begun to emerge <REF>.",453
+"For classification tasks such as this, the start of sentence was indicated with special token ""[CLS]"" and end of sentence with special token "" <REF>"".",454
+"• In SLE, an item is represented via the sentence level embedding of BERT <REF>, i.e., the embedding of token [CLS] is used as the item's embedding.",455
+"As components, language models are useful for many Natural Language Processing (NLP) tasks such as generation <REF> and machine translation .",456
+ELMo <REF> and BERT  used different unsupervised objectives to pre-train text models which have advanced the state-of-the-art for many NLP tasks.,457
+The Situations With Adversarial Generations (SWAG) dataset <REF> introduced a large-scale benchmark for commonsense question answering in the form of multiple choice sentence completion questions describing situations as observed in video.,458
+Contextual word embedding models such as ELMo <REF> and BERT  have dramatically improved performance for many natural language processing (NLP) tasks in recent months.,459
+"Natural language processing (NLP) has been shaken in recent months with the dramatic successes enabled by transfer learning and contextual word embedding models, such as ELMo <REF>, ULMFiT , and BERT .",460
+"Contextual Embeddings in General Traditional word-level vector representations, such as word2vec <REF>, GloVe , and fastText , express all possible meanings of a word as a single vector representation and cannot disambiguate the word senses based on the surrounding context.",461
+"For all pre-training experiments, we leverage the tensorflow implementation of BERT <REF>.",462
+"Similar to asynchronous bidirectional decoding  and bidirectional language models in BERT <REF>, the proposed SB-NMT model also faces the same training problem that the bidirectional decoding would allow the words (the second half of the decoding sequence) to indirectly ""see themselves"" from the other decoding direction.",463
+"• We adopt recent progress in large pretrained contextual word embeddings, i.e., BERT <REF> into dialog state tracking, and get considerable improvement.",464
+The recent advancements in the neural representation of words includes using character embeddings <REF> and more recently using contextualized embeddings such as  and BERT .,465
+"In particular, for pre-trained word vectors p i , we experiment with using deep contextualized word embeddings using BERT <REF>.",466
+"For all the three models, we encode the word tokens with BERT <REF> followed by an affine layer with 200 hidden units.",467
+We also reported the result for a hybrid model by combining our approach with the JST approach in <REF>.,468
+"Moreover, BERT <REF> pretrains language models and fine-tunes them on the target task.",469
+"Self-training methods such as ELMo <REF>, GPT , BERT , XLM , and XLNet  have brought significant performance gains, but it can be challenging to determine which aspects of the methods contribute the most.",470
+"We present a replication study of BERT pretraining <REF>, which includes a careful evaluation of the effects of hyperparmeter tuning and training set size.",471
+"In this section, we give a brief overview of the BERT <REF> pretraining approach and some of the training choices that we will examine experimentally in the following section.",472
+"Unlike <REF>, we do not randomly inject short sequences, and we do not train with a reduced sequence length for the first 90% of updates.",473
+GLUE The General Language Understanding Evaluation (GLUE) benchmark <REF>) is a collection of 9 datasets for evaluating natural language understanding systems.,474
+"For each separate label, we create learnable segment embeddings (inspired by <REF>) as shown in , using the subtokenization scheme described in .",475
+"Classifiers: In <REF>, Naive Bayes refers to the classifier from .",476
+"Model architecture We used a pretrained BERT model <REF> (12 layers, 768 units per layer) as the basis for our classification model.",477
+"Model architecture We used a pretrained BERT model <REF> (12 layers, 768 units per layer) as the basis for our classification model.",478
+"To address the data sparsity challenge, a variety of techniques were proposed for training general purpose language representation models using an enormous amount of unannotated text, such as ELMo <REF> and Generative Pre-trained Transformer (GPT) .",479
+We first briefly describe the BERT model <REF> and then introduce the proposed joint model based on BERT.,480
+"A large portion of temporal language has a similar parsing structure <REF>, as shown in .",481
+"In NLP, Neural language model pre-training has shown to be effective for improving many tasks <REF>.",482
+"In NLP, Neural language model pre-training has shown to be effective for improving many tasks <REF>.",483
+"where d is the number of columns of Q and K. In these work <REF>, they all use the multi-head attention, as introduced in ,",484
+"Different from the architectures of convolutional neural network (CNNs) and recurrent neural networks (RNNs) language modeling, the Transformer <REF> and its variants  achieve excellent results in language modeling processing.",485
+"Different from the architectures of convolutional neural network (CNNs) and recurrent neural networks (RNNs) language modeling, the Transformer <REF> and its variants  achieve excellent results in language modeling processing.",486
+"For example, recent studies have shown a significant improvement using large-scale data to train large deeper models for natural language understanding tasks <REF>.",487
+"We propose a model that applies multi-head attention to each layer (multihead multi-layer attention, MHMLA) to fine-tune pre-trained Bidirectional Encoder Representations from Transformers (BERT) <REF>.",488
+BERT is designed to learn deep bidirectional representations by jointly conditioning both the left and right contexts in all layers <REF>).,489
+This baseline uses original BERT model <REF> and can be seen as surrogated version of the proposed method without multi-layer attention.,490
+"Deep Neural Networks (DNNs) are able to achieve stateof-the-art performance in many cognitive applications, including computer vision <REF>, speech recognition , and natural language processing .",491
+"• semantic features extracted from the pre-trained language model BERT <REF> 12 , • spatial features based on the bounding box coordinates of the semantic entity, • meta features that encode the length of the sequence.",492
+The success of pretrained language models for natural language understanding <REF> has led to a race to train unprecedentedly large language models .,493
+Our publicly deployed version uses both BERT <REF> and GPT-2 117M .,494
+"In addition, we also augment our model with ELMo <REF> or a larger version of BERT  as the sole token representation to compare with other pre-training models.",495
+"Finally, we plan to experiment with different monolingual representations from ElMo <REF>, BERT , ROBERTa , XLNet , and Ernie 2.0 , pooled representations from Flair , distilled representations from MT-DNN  or cross-language representations from XLM .",496
+"First, we make use of sentence-level embeddings which leverage the pre-trained language representations from the Bidirectional Encoder Representations from Transformers (BERT) <REF>.",497
+"One kind of pre-trained models is the word embeddings, such as word2vec <REF> and GloVe , or the contextualized word embeddings, such as CoVe  and .",498
+"More recently, the method of pre-training language models on a large network with a large amount of unlabeled data and fine-tuning in downstream tasks has made a breakthrough in several natural language understanding tasks, such as OpenAI GPT <REF> and BERT .",499
+"Following <REF>, we use WordPiece embeddings  with a 30,000 token vocabulary and denote split word pieces with ##.",500
+"We use the BERT-base model <REF> with a hidden size of 768, 12 Transformer blocks  and 12 self-attention heads.",501
+"Firstly, we computed feature vectors -using naive methods, and then with the use of Word2Vec <REF>.",502
+"BERT <REF>, which stands for Bidirectional Encoder Representations from Transformers was developed by the Google AI language team.",503
+"BERT <REF>, which stands for Bidirectional Encoder Representations from Transformers was developed by the Google AI language team.",504
+"The rumour of 1,000 foreigners harvesting children's organs strikes again Based on this observation we focused on the best performing neural models for SNLI 2 as well as BERT <REF>.",505
+"Transformer has become a powerful unsupervised representation of word embedding in natural language tasks, and more details about the Transformer and its application can be found in <REF>, .",506
+<REF> illustrates how to perform lifecycle transitions manually for a text classification example.,507
+CloudScan is a learning based invoice analysis system <REF>.,508
+"In particular, our proposed model, called Convolutional Universal Text Information Extractor (CUTIE), tackles the key information extraction problem by applying convolutional deep learning model on the gridded texts, as illustrated in <REF>.",509
+"Bidirectional Encoder Representations from Transformers (BERT) is a recently proposed model that is pre-trained on a huge dataset and can be fine-tuned for a specific task, including Named Entity Recognition (NER), which outperforms most of the state of the art results in several NLP tasks <REF>.",510
+We compare the performance of the proposed method with two state of the art methods CloudScan <REF> and BERT for NER .,511
+We compare the performance of the proposed method with two state of the art methods CloudScan <REF> and BERT for NER .,512
+Proponents of machine learning claim human parity on tasks like reading comprehension <REF> and commonsense inference .,513
+"ii) Encode text using BERT <REF>, the current stateof-the-art in text encoders to obtain fixed-length representations for text.",514
+Transformer <REF> has achieved the state-of-the-art performance in many NLP tasks .,515
+A ention mechanism have recently been successfully applied in the Natural Language Processing eld <REF>[2] .,516
+There have been efforts for developing non-factoid question answering datasets <REF>.,517
+"To this aim, we report the results for a wide range of retrieval models (mostly neural models) in <REF>.",518
+"We introduce conditional masked language models (CMLMs), which are encoder-decoder architectures trained with a masked language model objective <REF>.",519
+"Following <REF>, we replace the inputs of the tokens Y mask with a special MASK token.",520
+"We follow <REF> and add a special LENGTH token to the encoder, akin to the CLS token in BERT.",521
+"Hyperparameters We follow most of the standard hyperparameters for transformers in the base configuration <REF>: 6 layers per stack, 8 attention heads per layer, 512 model dimensions, 2048 hidden dimensions.",522
+"One such approach for generating text from a masked language model casts BERT <REF>, a non-conditional masked language model, as a Markov random field .",523
+"Recently, bidirectional LMs (biLMs) have achieved significant success in many applications of the natural language processing <REF>.",524
+"To train our biSANLM, we consider the masked language modeling (MLM) objective of the BERT <REF>.",525
+"To train our biSANLM, we consider the masked language modeling (MLM) objective of the BERT <REF>.",526
+"To train our biSANLM, we consider the masked language modeling (MLM) objective of the BERT <REF>.",527
+"We use a gelu activation <REF> rather than the standard relu, following .",528
+"The past decade has seen the rise of deep neural networks (DNNs) <REF> to solve a variety of problems, including image recognition , natural-language processing , and autonomous vehicle control .",529
+"We fine-tune the pre-trained end-to-end Bidirectional Encoder Representations from Transformers (BERT) model <REF>, while using the discussion's source post, target's previous post and the target post itself as inputs to determine the rumour stance of the target post.",530
+"The model is first trained on the concatenation of BooksCorpus (800M words) <REF> and English Wikipedia (2,500M words) using the multi-task objective consisting of LM and machine comprehension (MC) subobjectives.",531
+"Specifically, the submitted methods are mostly based on the Bottom-Up and Top-Down attention model <REF> architecture.",532
+"In this paper, we focus on sentence-level generation evaluation, and introduce BERTSCORE, an evaluation metric based on pre-trained BERT contextual embeddings <REF>.",533
+BERTSCORE addresses three common pitfalls in n-gram based methods <REF>.,534
+"In contrast to word embeddings <REF>, contextual embeddings  Figure 1: Illustration of the computation of the recall metric R BERT .",535
+"In contrast to word embeddings <REF>, contextual embeddings  Figure 1: Illustration of the computation of the recall metric R BERT .",536
+Moving beyond words towards whole sentence embeddings has been more challenging for disentanglement <REF>).,537
+BERT model <REF> has achieved significant improvements on a variety of NLP tasks.,538
+Then the vector representation of each word position from BERT encoder is fed into two separate dense layers to predict the probabilities P s and P e <REF>.,539
+Typical examples include inflating 2D convolution into 3D convolution <REF>.,540
+There is a parallel research thread around learning effective representations for sentences that can capture sentence semantics <REF>.,541
+There is a parallel research thread around learning effective representations for sentences that can capture sentence semantics <REF>.,542
+"The best system for Subtask B was by team AUTOHOME-ORCA (Autohome Inc. and Beijing University of Posts and Telecommunications), who used BERT <REF>.",543
+"BERT <REF>, the latest refinement of a series of neural models that make heavy use of pretraining , has led to impressive gains in many natural language processing tasks, ranging from sentence classification to question answering to sequence labeling.",544
+"Recently, there has been a resurgence of interest in this task, the most notable of which is Dr.QA <REF>.",545
+"We use the model in <REF>, but with one important difference: to allow comparison and aggregation of results from different segments, we remove the final softmax layer over different answer spans.",546
+"This is further improved with contextual embeddings <REF> to 82.4, an overall improvement of close to 8 F1 points against the : Trained model's representation of nested entities, after thresholding the merge values, M (see section 2.1).",547
+"Following <REF>, we added a ""CAP features"" embedding of dimension 20, denoting if each word started with a capital letter, was all capital letters, or had no capital letters.",548
+These are shown in the top section of <REF>.,549
+"For the NLI and RQE tasks, we use transfer learning on prevalent pre-trained models like BERT <REF> and MT-DNN .",550
+Most traditional approaches to Question Entailment use bag-of-word pair classifiers <REF> using only lexical similarity.,551
+"The best model for both the tasks is the ensemble of Infersent <REF>, BERT fine-tuned (last 4 layers)  and MT-DNN .",552
+"To overcome this, we could extract medical entities using Metamap <REF> and mask them randomly during training so that the model learns the semantic representation even without the medical entities.",553
+Transformer-XL networks <REF> bring back recurrence in the transformer models and counter the problem of fixed-length context in the Transformer.,554
+) and <REF>) have applied language modeling and transfer to a variety of academic text understanding problems on the GLUE Benchmark.,555
+<REF>;  propose multi-granular transfer of sentence and word representations across tasks using Universal Sentence Encoders.,556
+"Recently, BERT <REF> has garnered a lot of interest for beating contemporary contextual embeddings on all the GLUE tasks.",557
+"We find that a fine-tuned version of the recent large-scale language model, BERT <REF>, performs significantly better than other methods on KNOWREF, although with substantial room for improvement to match human performance.",558
+"Additionally, we develop a task-specific model for KNOWREF: a discriminatively trained finetuned instance of Bidirectional Encoder Representations from Transformers (BERT) <REF>.",559
+"In addition to a trained attacker, we also use a conditional language model, BERT <REF>.",560
+"In addition to a trained attacker, we also use a conditional language model, BERT <REF>.",561
+"Deep attention networks are becoming increasingly powerful in solving challenging tasks in various fields, including natural language processing <REF>, and computer vision .",562
+"Deep attention networks are becoming increasingly powerful in solving challenging tasks in various fields, including natural language processing <REF>, and computer vision .",563
+There has been great successes for transfer in the field of Computer Vision <REF>.,564
+"Natural Language Sentence Matching (NLSM) aims at comparing two sentences and identifying the relationships <REF>, and serves as the core of many NLP tasks such as question answering and information retrieval .",565
+"A wide variety of unsupervised learning algorithms to represent words and documents have been proposed, from the well-known bag-of-word model <REF> to the recently introduced attention-based Transformer  adapted for unsupervised pretraining .",566
+"The second architecture uses the fine-tuned BERT model <REF>, with an input format of word-piece tokenization.",567
+"The second architecture uses the fine-tuned BERT model <REF>, with an input format of word-piece tokenization.",568
+"In addition, we augment our parser with ELMo <REF> and a larger version of BERT  (24 layers, 16 attention heads per layer, and 1024-dimensional hidden vectors) to compare with other pre-trained or ensemble models.",569
+"Meanwhile, neural language models, such as fastText <REF>, , OpenAI GPT , and Bidirectional Encoder Representations from Transformers (BERT) , that encode words and sentences in fixed-length dense vectors, embeddings, have achieved impressive results on various natural language processing tasks.",570
+"Meanwhile, neural language models, such as fastText <REF>, , OpenAI GPT , and Bidirectional Encoder Representations from Transformers (BERT) , that encode words and sentences in fixed-length dense vectors, embeddings, have achieved impressive results on various natural language processing tasks.",571
+"Non-contextual word embeddings, such as Word2Vec <REF>, GloVe , fastText , maps each word independently on the context of the sentence where the word occur in.",572
+In this paper we exploit the BERT architecture <REF> to learn instance representations.,573
+"More recently, unsupervised representation-learning approaches -such as Word2Vec , Paragraph Vectors <REF>, and BERT ) -have become popular for language processing tasks.",574
+"There are potentially many ways of either bag-of-words methods such as Paragraph Vectors <REF>, Simple Embedding (Arora, Liang, and Ma 2017) or even pre-trained sentence encoders such as ELMO ) and BERT  to construct e. Most recently  proposed a method to train entity embeddings; however they did not show a downstream evaluation of NED accuracy.",575
+"ULMFit's main idea of efficiently fine-tuning a pre-trained a language model for down-stream tasks was brought to another level with Bidirectional Encoder Representations from Transformers (BERT) <REF>, which is also the main focus of this paper.",576
+BERT <REF> is in essence a language model that consists of a set of Transformer encoders stacked on top of each other.,577
+Sentiment classification is conducted by adding a dense layer after the last hidden state of the <REF> token.,578
+"Increasingly complex neural networks have achieved highly competitive results for many NLP tasks <REF>, but they prevent human experts from understanding how and why a prediction is made.",579
+"Currently, only a relatively small number of pretrained models such as pretrained VGG <REF>, ResNet , GoogLeNet , and BERT  are made available for reuse.",580
+"Current mainstream studies have treated RC as a process of extracting an answer span from one passage <REF> or multiple passages , which is usually done by predicting the start and end positions of the answer .",581
+Recent breakthroughs in transfer learning demonstrate that pre-trained language models perform well on RC with minimal modifications <REF>.,582
+"In multi-task learning without task-specific layers, <REF> and  improved RC performance by learning multiple datasets from the same extractive RC setting.",583
+"In recent years, extensive works <REF> have been done in learning the word or sentence representations, but most of them only use a sentence or a few sentences when learning the representation, and the document context can hardly be included in the representation.",584
+"Self-supervised learning <REF> is a newly emerged paradigm, which aims to learn from the intrinsic structure of the raw data.",585
+"Various methods, such as BERT <REF> and  pre-training technique, have demonstrated how models such as the Transformer can improve over RNN pre-training .",586
+Distributed representations of words in the form of word embeddings <REF> and contextualized word embeddings  have led to huge performance improvement on many NLP tasks.,587
+"BERT <REF>, we must be careful how such unsupervised methods perpetuate bias to downstream applications and our work forms the basis of evaluating and mitigating such bias.",588
+"Although several pre-training methods have shown their superiority in NLP on tasks such as question answering <REF>, they just exploit the sentence context with homogeneous text.",589
+"Recent years have witnessed the development of pre-training methods, which is a good way to make the most of unlabeled corpus in NLP field <REF>.",590
+"Recent years have witnessed the development of pre-training methods, which is a good way to make the most of unlabeled corpus in NLP field <REF>.",591
+"Recent years have witnessed the development of pre-training methods, which is a good way to make the most of unlabeled corpus in NLP field <REF>.",592
+"We choose state-of-the-art methods for difficulty estimation <REF>, knowledge mapping  and score prediction , without any forms of pre-training.",593
+Both SGNS and SVD PPMI have been shown to be adequate for exploring historical semantics <REF>.,594
+"ELMo (Peters et al., 2018) and BERT <REF> can be used to generate contextualized word representations by combining internal states of different layers in neural language models.",595
+"In addition, it would be interesting to explore contextualized word embeddings learned by other neural models such as BERT <REF> or OpenAI GPT models  in future work.",596
+There are several ideas to condition the model on a context <REF>.,597
+"While most of the Seq2Seq models are based on RNN, recently researchers have proposed frameworks based on CNN <REF> and attention mechanism .",598
+(1) We extract all the descriptions for the products in the dataset and run word2vec <REF> on the description sentences to obtain the embedding for each word in the description vocabulary.,599
+"Most research on generative models of dialog has built on the baseline introduced by <REF> by incorporating various forms of inductive bias  into their models, whether it be through the training procedure, the data or through the model architecture.",600
+Experimental results in <REF> show that our Structured Fusion Networks (SFNs) obtain strong results when compared to both methods trained with and without the use of reinforcement learning.,601
+HDSA <REF> outperforms SFN possibly due to the use of a more sophisticated Transformer model  and BERT pretraining .,602
+We also experiment with the recently proposed contextualized embeddings of <REF>.,603
+"We also consider a model, CNN+BERT, which makes use of the largescale pre-trained model of <REF>.",604
+We also apply the model to CoQA <REF> for conversational question answering.,605
+Dynamic word embeddings have been shown to improve multiple natural language processing applications <REF>.,606
+"Indeed, as stated in <REF>, a baseline classifier that constantly predicts the mean score of depression provides an RMSE=5.73 and an MAE=4.74.",607
+"BERT <REF> is a recently released sequence model used to achieve state-of-art results on a wide range of natural language understanding tasks, including constituency parsing  and machine translation .",608
+"<REF> however proposed to ""mask out"" multiple tokens at a time and predict all of them given both all ""observed"" and ""masked out"" tokens in the sequence.",609
+Our experiments demonstrate the potential of using BERT as a standalone language model rather than as a parameter initializer for transfer learning <REF>.,610
+Our experiments demonstrate the potential of using BERT as a standalone language model rather than as a parameter initializer for transfer learning <REF>.,611
+Our experiments are built on top of AllenNLP <REF> which uses the PyTorch deep learning framework.,612
+"Early convolutional networks demonstrated groundbreaking successes in computer vision, ranging from image classification to object detection <REF>.",613
+"Early convolutional networks demonstrated groundbreaking successes in computer vision, ranging from image classification to object detection <REF>.",614
+"<REF> propose an attention-based method to compute different representations of the NLQ for each relation in the logical form, and evaluate their approach on LC-QuAD and QALD-7.",615
+"Deep pre-training models such as ELMo , GPT <REF>, BERT  are new directions in NLP.",616
+"Similarly to contextualised word representations, this offers an additional signal for the test set instances, as we obtain this through predicted auxiliary labels rather than direct encoding of the context <REF>.",617
+"To ease optimization, researchers tried to reduce the number of non-linear transitions <REF>   In their approach, the encoder layers are combined just after the encoding is completed, but not during the encoding process.",618
+"The goal is to select 0 ≤ k ≤ n spans of words each of which corresponding to an argument unit A = w j ...w m , 1 ≤ j, j ≤ m, m ≤ n. Following <REF>, we distinguish between PRO and CON (t should be supported/opposed, because A) arguments.",619
+"Furthermore, we used the BERT 10 base (cased) model <REF> as a recent state-ofthe-art model which achieved impressive results on many tasks including sequence labeling.",620
+"These approaches have, on multiple occasions, broken the state-of-the-art records (SOTAs) across the board on a range of NLP tasks and datasets <REF>  .",621
+"<REF> note,  hypothesize that their respective approaches can be used with low quantities of data to give good results.",622
+"Recently, the leading approach has been BERT <REF> and hence this will be the principle approach we consider here.",623
+by <REF>.,624
+"Finally, we will assess the robustness of both character-based <REF> and context-dependent embeddings ,  with respect to misspellings.",625
+"The task of reading comprehension, where systems must understand a single passage of text well enough to answer arbitrary questions about it, has seen significant progress in the last few years, so much that the most popular datasets available for this task have been solved <REF>.",626
+"we used in data construction (66.8% EM on SQuAD 1.1); (2) QANet <REF>, currently the best-performing published model on SQuAD 1.1 without data augmentation or pretraining (72.7% EM); (3) QANet + ELMo, which enhances the QANet model by concatenating pretrained ELMo representations  to the original embeddings (78.7% EM); (4) BERT , which recently achieved improvements on many NLP tasks with a novel pretraining technique (84.7% EM).",627
+"BERT <REF>) is a strong pre-trained network trained on about 3.3 billion word corpus, which advances the state-of-the-art for many NLP tasks.",628
+Language model pre-training <REF> is another line of self-supervised learning task.,629
+Language model pre-training <REF> is another line of self-supervised learning task.,630
+An illustration of how ORQA scores answer derivations is presented in <REF>.,631
+Reader component The reader is a span-based variant of the reading comprehension model proposed in <REF>:,632
+"Pre-trained contextualized word embeddings <REF> have become increasingly common in natural language processing (NLP), improving stateof-the-art results in many standard NLP tasks.",633
+"We extract embeddings to train our models from a corpus of 42,306 Wikipedia movie plot summaries <REF>.",634
+Masking out target words is a part of the BERT training objective <REF>.,635
+Masking out target words is a part of the BERT training objective <REF>.,636
+"We now describe the QA architecture employed in our experiments, which is borrowed from <REF>.",637
+"Question and Context Encoding Recently, contextual representations from Transformer architectures <REF> trained with a language modelling objective have performed well on multiple NLP tasks , including QA.",638
+"We employ a baseline model based upon <REF> and , which is a convolutional neural network (CNN) with position embeddings and a ranking loss (referred to as CRCNN in this paper).",639
+This work adopts BERT <REF>) as the base model as it achieves the state-ofthe-art performance on MRC .,640
+Reviews also serve as a rich resource for sentiment analysis <REF>.,641
+BERT is one of the key innovations in the recent progress of contextualized representation learning <REF>.,642
+"To answer RQ2, to our surprise we found that the vanilla pre-trained weights of BERT do not work well for review-based tasks, although it achieves state-of-the-art results on many other NLP tasks <REF>.",643
+We use the BERT <REF> model to learn these representation functions.,644
+We use the BERT <REF> model to learn these representation functions.,645
+"Both of them have been very successful, with the state of the art on the SNLI and MultiNLI datasets being 90.4%, which is our baseline with BERT <REF>, and 86.7%  respectively.",646
+"Both of them have been very successful, with the state of the art on the SNLI and MultiNLI datasets being 90.4%, which is our baseline with BERT <REF>, and 86.7%  respectively.",647
+"However, our experiments also show that BERT <REF> performs much better than the other models in experiments between SNLI and MultiNLI.",648
+"in InferSent <REF>, and HBMP .",649
+Model type BiLSTM-max <REF> Sentence encoding HBMP  Sentence encoding ESIM  Cross-sentence attention KIM  Cross-sentence attention ESIM + ELMo  Pre-trained language model BERT-base  Cross-sentence attention + pre-trained language model Accuracy drops the most when a model is tested on SICK.,650
+BERT <REF>.,651
+"More recently, there has been a growing body of work exploring to leverage language model trained on massive corpora in both character level <REF> and token level .",652
+<REF> Recent work on language modelling (LM) pretraining  has shown that task-specific architectures are not necessary in a number of NLP tasks.,653
+We also show that the proposed two-step response selection training regime is more effective than directly applying offthe-shelf state-of-the-art sentence encoders <REF>.,654
+"We also apply the label smoothing technique <REF>, shown to reduce overfitting by preventing a network to assign full probability to the correct training example .",655
+<REF> (1) Universal Sentence Encoder of Cer et al.,656
+Task-specific fine-tuning of language models (LMs) pretrained on large unsupervised corpora <REF> has taken NLP by storm.,657
+"Recently, BERT, the pre-trained deep bidirectional Transformer, has shown strong performances on many language processing tasks <REF>.",658
+We refer readers to the BERT and Transformer papers for their details <REF>.,659
+It is suggested to use the pre-trained BERT as a fine-tuning method <REF>.,660
+"It uses the last layer's ""[CLS]"" as the matching features and combines them linearly with weight w. It is the recommended way to use BERT <REF> and is first applied to MARCO passage ranking by Nogueira and Cho .",661
+Recent scientific achievements in Deep Learning (DL) <REF>-  provide many opportunities for the development of novel methods for efficient cyber defense.,662
+368K unlabeled PowerShell scripts and modules (*.ps1 and *.psm1 files) collected from public repositories including GitHub <REF> and PowerShellGallery 12 .,663
+"For example, the ability to automatically quantify the naturalness of software has enabled new tools for autocompletion <REF>, improving code readability , and program repair .",664
+We thus evaluated <REF>'s state-of-the-art BERT model using published pre-trained weights from bert base (12-layers; 110M parameters) and bert large (24-layers; 340M parameters).,665
+"This is surprising, because previous attempts to generalize from the WSCR dataset to WSC273 did not achieve a major improvement <REF>.",666
+"This section introduces the main LM used in our work, BERT <REF>, followed by a detailed description of WSC and its relaxed form, the Definite Pronoun Resolution problem.",667
+Our work uses the pre-trained Bidirectional Encoder Representations from Transformers (BERT) LM <REF> based on the transformer architecture .,668
+We approach WSC by finetuning the pre-trained BERT LM <REF> on the WSCR training set and further on a very large Winograd-like dataset that we introduce.,669
+"In this work, we use the PyTorch implementation 3 of <REF> pre-trained model, BERT-large.",670
+Internet scale companies generate terabytes of data every day which needs to be analyzed effectively to draw meaningful insights <REF>.,671
+"In this example, the model learns to determine the classification of the current anchor, ""姬"" (we insert an additional symbol, SEP to be consistent with the training format in the work of <REF>).",672
+lems <REF>.,673
+A possible improvement to our work is adding pre-trained embedding such as BERT <REF> or image-grounded word embedding  to improve the semantic understanding capability of the models.,674
+"In particular, BERT <REF> achieved stateof-the-art results when performing various tasks including the single-turn machine comprehension dataset SQuAD .",675
+"BERT is a powerful language representation model <REF>, which is based on bidirectional Transformer encoder .",676
+"Most recently, BERT <REF> was proposed as a contextualized language representation that is pre-trained on huge unlabeled datasets.",677
+Traditional models usually adopt convolutional neural networks (CNN) <REF> or recurrent neural networks (RNN)  as encoders.,678
+<REF> employ supervised transfer learning frameworks to pre-train a model from a source dataset.,679
+"Transformer <REF> which computes a score similarly to the BiLSTM's scorer, except that each bi-LSTM layer is replaced by a either a bidirectional Transformer layer (BiTransf), or a Transformer with causal self-attention (UniTransf).",680
+"Transformer <REF> which computes a score similarly to the BiLSTM's scorer, except that each bi-LSTM layer is replaced by a either a bidirectional Transformer layer (BiTransf), or a Transformer with causal self-attention (UniTransf).",681
+"Transformer <REF> which computes a score similarly to the BiLSTM's scorer, except that each bi-LSTM layer is replaced by a either a bidirectional Transformer layer (BiTransf), or a Transformer with causal self-attention (UniTransf).",682
+"The majority of NER systems treat the task has sequence labelling and model it using conditional random fields (CRFs) on top of hand-engineered features <REF>   : Actions and stack states when processing sentence ""Obama met Donald Trump"".",683
+Test F1 Flair <REF> 93.09 BERT Large  92.80 CVT + Multi  92.60 BERT Base  92.40  92.22 Our model 92.43  Comparison with individual models.,684
+Test F1 Flair <REF> 93.09 BERT Large  92.80 CVT + Multi  92.60 BERT Base  92.40  92.22 Our model 92.43  Comparison with individual models.,685
+"High quality datasets <REF> have boosted research progress, resulting in a wide range of MC models .",686
+<REF>.,687
+<REF>.,688
+Early attempts mostly leverage manually engineered features <REF>.,689
+"Extractive models proposed re-cently <REF> employ hierarchical document encoders and even have neural decoders, which are complex.",690
+"As the very successful applications of neural networks to a wide range of NLP tasks, the manually engineered features (for document encoding) are replaced with hierarchical LSTMs/CNNs and the sequence labeling (or classification) model is replaced with an LSTM decoder <REF>.",691
+"Therefore, <REF> propose the naturally bidirectional masked language model objective (i.e., masking several words with a special token in a sentence and then predicting them).",692
+"In analogy to the sentence encoder, as shown in <REF>, the document encoder is yet another Transformer but applies on the sentence level.",693
+Attention Mechanism is firstly proposed and used in machine translation <REF> in natural language processing.,694
+Language model pre-training has achieved strong performance in many NLP tasks <REF>.,695
+Recent work <REF> has shown that the pre-trained models can encode syntactic and semantic information of language.,696
+"Specifically, pre-training obtains more flat and wider optima, which indicates the pre-trained model tends to generalize better on unseen data <REF>.",697
+We follow the settings and the hyperparameters suggested in <REF>.,698
+"As shown in <REF>, we plot the optimization trajectory of fine-tuning on the generalization error surface.",699
+"The Transformer architecture <REF> replaces RNN cells with self-attention and point-wise fully connected layers, which are highly parallelizable and thus cheaper to compute.",700
+BERT is a multi-layer bidirectional Transformer encoder <REF>.,701
+"For BERT related model architectures, we use WordPiece embedding <REF> to tokenize the training/validation/test split of the PTB, WT-2 and WT-103 respectively.",702
+For BERT based architectures the hyperparameters of the Transformer encoder blocks and the embedding blocks are set the same as the original implementation <REF>.,703
+"Though discourse marker prediction in itself is an interesting and useful task <REF>, discourse markers have often been used as a training cue in order to improve implicit relation prediction     : Accuracy of various models on linguistic probing tasks using logistic regression on SentEval.",704
+<REF> proposed a more sophisticated solution to effectively stack single-turn models along the conversational flow.,705
+"In order to obtain meaningful representations for the phrases we focus on, another natural next step is expanding the postprocessing pipeline and including a comparison to other adaptation methods such as counterfitting  <REF>: Evaluation: Spearman's rank correlation between predicted emotion intensity scores and annotated scores on our dataset (T) or the EmoInt dataset (EI).",706
+"Semantic Similarity Augmentation Using distributed word representation (word embeddings) <REF>, one can identify semantically similar words .",707
+Language Models such as that by <REF> allow the filling in of blanks in any part of a sentence.,708
+"<REF> To find promising papers, we calculated the z-score for the papers in our datasets, using a time-window of ±10 days.",709
+<REF> Further automatization of our methodology is necessary: we want to assign topics to ranked Arxiv papers automatically rather than manually.,710
+"Despite the impressive success stories behind word representation learning <REF>, further investigations into the learnt representations have revealed several worrying issues.",711
+Pre-training of language models has been shown to provide large improvements for a range of language understanding tasks <REF>.,712
+Fine-tuning the pre-trained representations adjusts the language model parameters by the learning signal of the end-task <REF>.,713
+"In this context, many models use fixed or learned position embeddings, combined in different ways to the input sequences to help compute translations depending on the sequence context in a differentiable manner <REF>.",714
+We choose BERT <REF> as our backbone and adapt hyperparameters from the official implementation * .,715
+"It is worth mentioning that while all of these are variations on a theme, the transformer architecture for language modeling has shown great potential in improving over previous designs in terms of performance on a number of tasks <REF>.",716
+"There are efforts underway to develop tool-kits that utilize language models, currently GPT-2 and BERT, another transformer-based language model developed by Google <REF>, on iOS devices.",717
+Our method for TDMS identification resembles some approaches used for textual entailment <REF> or natural language inference (NLI) .,718
+Our method for TDMS identification resembles some approaches used for textual entailment <REF> or natural language inference (NLI) .,719
+"Recently, a multi-head self-attention encoder <REF> has been shown to perform well in various NLP tasks, including NLI .",720
+"Recently, a multi-head self-attention encoder <REF> has been shown to perform well in various NLP tasks, including NLI .",721
+Kim purposed the attention-based classifier that can achieve multi-label emotion classification <REF>; Yang applied a sequence generation model with a novel decoder structure to solve it with correlations between labels ;  created various attention mechanisms for NLP that applied into text classification by others; There was a new module that can sheep up training ; Zhang achieved text classification with the correlation between different task data ; And  explored the influence of different semantic embedding to multi-label text classification.,722
+"The convolution kernel is generally 3, and for TextCNN, the convolution is respectively <REF>.",723
+"Transformer network <REF> was first introduced for neural machine translation (NMT) tasks, where the encoder and decoder side each leverages a self-attention  transformer.",724
+"Following prior works on transformers <REF>, we add a residual connection to the crossmodal attention computation.",725
+"Meanwhile, there have been many successes of transfer learning for NLP: models such as CoVe <REF>, ELMo , OpenAI GPT , ULMFiT , and BERT  obtain powerful representations by training large-scale language models and use them to improve performance in many sentence-level and word-level tasks.",726
+Our transfer learning approach is based on the Bidirectional Encoder Representations from Transformers (BERT; <REF>.,727
+Our work makes use of the recent advances in transfer learning for NLP <REF>.,728
+We use a ResNet-152 network <REF> as the image encoder φ I .,729
+"We have recently seen great successes in using pretrained language models as encoders for a range of difficult natural language processing tasks <REF>, often with little or no fine-tuning: Language models learn useful representations that allow them to serve as general-purpose encoders.",730
+Pretrained Recurrent Language Models Pretrained or separately trained language models have largely been used in two contexts: as a feature extractor for downstream tasks and as a scoring function for a task-specific decoder <REF>.,731
+IHS RD <REF> and NLANGP  are the best systems from the original challenges .,732
+The Story Cloze (also referred to as ROC Stories) involves predicting the correct story ending from a set of plausible endings <REF> while the Situations with Adversarial Generations (SWAG) involves predicting the next scene based on an initial event .,733
+Knowledge Transfer in NLP Natural language processing has often relied on the transfer of world-knowledge through pretrained word vectors like Word2Vec <REF> and GloVe .,734
+"For the classification module of our proposed approach, we adopt the widely popular BERT model <REF> which we refer to as just BERT.",735
+"For the classification module of our proposed approach, we adopt the widely popular BERT model <REF> which we refer to as just BERT.",736
+"As shown in <REF>(a), our knowledge-aware response ranker consists of four major parts, i.e., the context-response representation module (Encoder), the knowledge representation module (Knowledge Encoder), the knowledge reasoning module (Knowledge Reasoner) as well as the matching module (Matcher).",737
+"We applied the same architecture to Gated Recurrent Units (GRU, <REF>, Long Short Term Memory (LSTM, , and BERT .",738
+We furthermore created one more variant of each multi-modal RNN by initializing a portion of their input-to-hidden weights with embeddings extracted from the Bidirectional Encoder Representations from Transformers (BERT) model <REF>.,739
+"The best results were achieved using the BERT Large model (bidirectional Transformer, 24 layers, 1024dims, 16 attention heads: <REF>.",740
+"U can be thought of as ""transposed embeddings"", an idea that has also been exploited to introduce further regularization into the neural language model learning process <REF>.",741
+We implemented a system similar to <REF>'s BiLSTM but with some key differences.,742
+"For the word embeddings model, we experimented with BERT <REF> as in our main results, with ELMo , and with GloVe , the same pre-trained word embeddings used by .",743
+We use the Stanford Natural Language Inference (SNLI) corpus <REF> and treat the task as a three-way classification task.,744
+"To generate sentiment-preserved fake reviews, we use a pre-trained GPT-2 NLM <REF>, which is able to generate length variable, fluent, meaningful sentences, to generate reviews and then use a fine-tuned text classifier based on BERT  to filter out undesired-sentiment reviews.",745
+"In this step, the attacker determines whether x has the same sentiment as x by using the BERT text classifier <REF>, which is similar to the GPT-2 in that it is also based on the transformer, but it further takes into account bidirectional context information.",746
+It has been shown that fine-tuning using labeled data after initializing the model with pre-trained parameters improves accuracy for downstream tasks <REF>.,747
+"ELMo and BERT <REF>) improve neural models with improved representations, while our framework augments the graph using first-order logic.",748
+"We introduce BERT-DST 1 , a scalable end-to-end dialogue state tracker, based on the BERT model <REF>, that directly predicts slot values from the dialogue context with no dependency on candidate generation.",749
+"In this section, we briefly describe BERT <REF> and how its architecture can be applied to scalable DST in our framework.",750
+"To learn bidirectional contextualized representations and inter-sentence relationship, BERT model is pre-trained on two unsupervised language modeling tasks: masked language modeling <REF> and next sentence prediction, using the BooksCorpus  and the English Wikipedia corpora.",751
+"synth2 <REF>, which is a binary classification dataset crafted to highlight issues with those AL strategies that focus on exploiting ""informative"" samples only (e.g.",752
+"synth2 <REF>, which is a binary classification dataset crafted to highlight issues with those AL strategies that focus on exploiting ""informative"" samples only (e.g.",753
+"Contextualized representation models such as CoVe <REF>, ELMo , OpenAI GPT ) and BERT  have recently achieved the state-of-the-art results on downstream NLP models across many domains.",754
+"Different from them, we propose Style Transformer, which takes Transformer <REF> as the basic block.",755
+The statistics of the two datasets are shown in <REF>.,756
+"For the discriminator, similar to <REF> and , we further add a <cls> token to the input, and the output vector of the corresponding position is feed into a softmax classifier which represents the output of discriminator.",757
+"Pre-trained language representation models, including feature-based <REF> and fine-tuning  approaches, can capture rich language information from text and then benefit many NLP applications.",758
+"Pre-trained language representation models, including feature-based <REF> and fine-tuning  approaches, can capture rich language information from text and then benefit many NLP applications.",759
+The early work <REF> focuses on adopting feature-based approaches to transform words into distributed representations.,760
+More details of these pre-training tasks can be found from <REF>.,761
+"The General Language Understanding Evaluation (GLUE) benchmark ) is a collection of diverse natural language understanding tasks <REF>, which is the main benchmark used in .",762
+"Self-a ention is an a ention mechanism relating di erent positions of a single sequence <REF>, which has been used successfully in a variety of tasks .",763
+"Self-a ention is an a ention mechanism relating di erent positions of a single sequence <REF>, which has been used successfully in a variety of tasks .",764
+"Text Features: We represent the textual utterances in the dataset using BERT <REF>, which provides a sentence representation u t ∈ R dt for every utterance u.",765
+"Transfer learning has been used extensively in computer vision tasks for many years, recently vastly expanded for many computer vision problems in <REF>.",766
+"For numerous applications in vision, ImageNet <REF>) became the source dataset for pre-training convolutional models.",767
+"We take BERT <REF> as the default backbone network, and explore two research questions.",768
+"Specifically, <REF> formulate the whole task as a sequence tagging problem and propose to use CRF with hand-crafted linguistic features.",769
+The overall illustration of the proposed framework is shown in <REF>.,770
+"We use Bidirectional Encoder Representations from Transformers (BERT) <REF>, a pre-trained bidirectional Transformer encoder that achieves state-of-the-art performances across a variety of NLP tasks, as our backbone network.",771
+<REF>: Main results on three benchmark datasets.,772
+"The architecture of our transformer model is identical to the base model described in <REF>, which has 6 layers for both encoder and decoder, 512 hidden units in each layer, 8 attention heads and 2048 hidden units in the feedforward layers.",773
+We extract high-level features with BERT <REF> and VGG16  for visual-linguistic attributes.,774
+Our bi-directional transformer architecture predicts every token in the training data ( <REF>).,775
+The concurrently introduced BERT model ( <REF> is a transformer encoder model that captures left and right context.,776
+"Finally, BERT as well as <REF> consider only a single data source to pretrain their models, either BooksCorpus , or BooksCorpus and additional Wikipedia data , whereas our study ablates the effect of various amounts of training data as well as different data sources.",777
+"Finally, there are four natural laguage inference tasks: the Multi-Genre Natural Language Inference (MNLI; <REF>, the Stanford Question Answering Dataset (QNLI; , the Recognizing Textual Entailment (RTE; .",778
+<REF> shows results for three configurations of our approach (cf.,779
+"In this work, we employ the contextualized word representations BERT in <REF> for this purpose.",780
+"Furthermore, we adopt an effective pretrained language representation model BERT <REF> to better grasp both evidence and claim semantics.",781
+Pre-trained language representation models such as ELMo  and OpenAI GPT <REF> are proven to be effective on many NLP tasks.,782
+"As BERT <REF> has achieved promising performance on several NLP tasks, we also implement two baseline systems via fine-tuning BERT in the claim verification task.",783
+We utilize BERT BASE <REF> in all of the BERT fine-tuning baselines and our GEAR framework.,784
+"BERT <REF>, and RNN-based models, e.g.",785
+"<REF>, used multi-step reasoning, implemented using recurrent layers, to predict the answer spans.",786
+"Also, inspired by recent work in language model pre-training <REF>, we are interested in exploring how similar pre-training techniques would benefit our global English model as well as the multilingual model.",787
+"BERT <REF>) is a pre-trained transformer network , which set for various NLP tasks new state-of-the-art results, including question answering, sentence classification, and sentence-pair regression.",788
+SentEval <REF>) is a popular toolkit to evaluate the quality of sentence embeddings.,789
+"We have repeated these experiments for NER in several different settings, including using only static embeddings, using a non-neural truecaser, and using BERT uncased embeddings <REF>.",790
+"For the question representation, since a well-formed question might sensitive to the word order, we make use of the recent proposed contextual word embeddings such as BERT <REF> to capture the contextual word information.",791
+"On the ISNotes corpus <REF>, our model with the contextually-encoded word representations (BERT)  achieves new state-of-the-art performances on fine-grained refer to a value of a previously explicitly (the price went mentioned rise/fall function down) 6 cents m/comparative usually contain a premodifier to indicate that another law this entity is compared to another entity further attacks m/bridging associative anaphors which link to previously the price introduced related entities/events the reason new introduced into the discourse for the first time a reader and not known to the hearer before politics : Information status categories and their main affecting factors.",792
+"Recently, multi-head selfattention encoder <REF> has been shown to perform well in various NLP tasks, including semantic role labelling , question answering and natural language inference .",793
+Recent work <REF> have shown that a range of downstream NLP tasks benefit from fine-tuning task-specific parameters with pre-trained contextual word representations.,794
+Recent work <REF> have shown that a range of downstream NLP tasks benefit from fine-tuning task-specific parameters with pre-trained contextual word representations.,795
+"Recently, <REF> have demonstrated the capacities of contextualized word embeddings across a wide variety of tasks, including SPRL.",796
+"These two systems differ in only one aspect from the previously mentioned models: instead of GloVe word vectors, we feed contextual vectors extracted from the BERT model <REF>.",797
+"However, most state-of-art deep-learning-based resolvers utilize one-directional Transformers <REF>, limiting the ability to handle long-range inferences and the use of cataphors.",798
+We use pre-trained BERT embeddings <REF> as our initial hidden states of vertices in R-GCN.,799
+"• It introduces structure-invariant testing (SIT), a novel, widely applicable methodology for validating machine translation software; • It describes a practical implementation of SIT by adapting BERT <REF>] to generate similar sentences and leveraging syntax parsers to represent sentence structures; • It presents the evaluation of SIT using only 200 unlabeled sentences crawled from the Web to successfully find 64 buggy translations in Google Translate and 70 buggy translations in Bing Microsoft Translator with high accuracy; and • It discusses the diverse bugs found by SIT, including under-translation, over-translation, incorrect modification, word/phrase mistranslation, and unclear logic, of which none could be found by state-of-the-art metrics (i.e., BLEU and ROUGE).",800
+"Specifically, we use BERT <REF>, which is a state-of-the-art language representation model recently proposed and released by Google.",801
+Pre-trained word representations such as word2vec <REF> have been widely used in neural IR.,802
+Pre-trained word representations such as word2vec <REF> have been widely used in neural IR.,803
+This paper explores leveraging BERT (Bidirectional Encoder Representations from Transformers) <REF> for ad-hoc document retrieval.,804
+One line of research learns text presentations tailored for the search task <REF> with search signals from click logs  or pseudo-relevance feedback .,805
+One line of research learns text presentations tailored for the search task <REF> with search signals from click logs  or pseudo-relevance feedback .,806
+"Finetune-based approaches such as Generative Pretrained Transformer (GPT) <REF> and BERT , however, pretrain a model on unannotated data and then finetune the same architecture and use it on different downstream tasks.",807
+Pretraining has been used in NLI <REF> and shown to improve performance on many tasks.,808
+• BERT <REF> • DenseNet+DynAtt: DenseNet plus Dynamic Self Attention.,809
+"Although the current NLI training datasets <REF> are much larger than what were available previously, the amount of NLI knowledge that can be learned is still limited.",810
+"In order to predict possible answer spans for each passage, we train a candidate answer prediction model on SQuAD 1.1 <REF>.",811
+The sub-network is based on a pre-trained BERT model <REF> followed by a sentence classification layer with sigmoid prediction.,812
+"In paragraph selection stage, we use the uncased version of BERT Tokenizer <REF> to tokenize all passages and questions.",813
+"In paragraph selection stage, we use the uncased version of BERT Tokenizer <REF> to tokenize all passages and questions.",814
+<REF> shows the performance of different models in the private test set of HotpotQA.,815
+"Our approach consists of following steps: (1) parse original protocol into a collection of protocol phrases together with their procedural relations, using a deterministic finite automation (DFA); (2) Match the protocol phrases back to the text spans in transcripts using fuzzy matching <REF>; (3) Generate text span extraction dataset and train a sequence labeling model  for text span extraction; (4) Generate text spanpair relation extraction (span-pair RE) dataset and fine-tune pre-trained context-aware span-pair RE model .",816
+"Our approach consists of following steps: (1) parse original protocol into a collection of protocol phrases together with their procedural relations, using a deterministic finite automation (DFA); (2) Match the protocol phrases back to the text spans in transcripts using fuzzy matching <REF>; (3) Generate text span extraction dataset and train a sequence labeling model  for text span extraction; (4) Generate text spanpair relation extraction (span-pair RE) dataset and fine-tune pre-trained context-aware span-pair RE model .",817
+"Recent advances in machine reading comprehension, textual entailment <REF> and relation extraction  shows the contemporary NLP models have the capability of capturing causal relations in some degree.",818
+"Recent advances in machine reading comprehension, textual entailment <REF> and relation extraction  shows the contemporary NLP models have the capability of capturing causal relations in some degree.",819
+"Recent advances in machine reading comprehension, textual entailment <REF> and relation extraction  shows the contemporary NLP models have the capability of capturing causal relations in some degree.",820
+"We encode q and c (a candidate answer) with averaged word vectors <REF> and i with CNN features , following .",821
+"Firstly, proposed in machine translation, attention mechanism aims to align the words in the source language and target language <REF>.",822
+"We also conducted some experiments related to BERT <REF>, which are included in the appendix.",823
+• Investigating other methods of sentence embedding such as <REF> -possibly with fine-tuning or domain adaptation subject to using large datasets.,824
+"We first evaluate our system on the   <REF>, we further evaluate our EPAr system (and its smaller-sized and ablated versions) on the ""follows + multiple"", ""follows + single"", and the full development set.",825
+"<REF>, but many of these are tailored to a specific type of phrase or to a fixed number of constituent words, and they all disregard the surrounding context.",826
+<REF>.,827
+"ELMo (Embeddings from Language Models,  are obtained by learning a character-based language model using a deep biL-STM <REF>.",828
+"Breakthroughs have been made in computer vision to enable deeper model construction via advanced initialization schemes <REF>, multi-stage training strategy , and : Performances of Transformer models with different number of encoder/decoder blocks (recorded on x-axis) on WMT14 En→De translation task.",829
+"All the word embeddings in our model come from the pre-trained BERT embeddings provided by <REF>, which has a dimension of 768 for each embedding.",830
+Recent work has investigated this question by examining the outputs of language models on carefully chosen input sentences <REF> or examining the internal vector representations of the model through methods such as probing classifiers .,831
+"Although our analysis methods are applicable to any model that uses an attention mechanism, in this paper we analyze BERT <REF>, a large Transformer  network.",832
+"Recently, a variety of techniques were proposed for training general-purpose language representation models using an enormous amount of unannotated text, such as ELMo <REF> and generative pretrained transformer (GPT) .",833
+"While the pretraining tasks have been designed with particular downstream tasks in mind <REF>, we focus on those training tasks that seek to induce universal representations suitable for downstream few-shot learning tasks.",834
+"While the pretraining tasks have been designed with particular downstream tasks in mind <REF>, we focus on those training tasks that seek to induce universal representations suitable for downstream few-shot learning tasks.",835
+"Although the word is usually regarded as the smallest and basic unit for most NLP pipelines, there is a recent trend of utilizing subword information for enriching word representations <REF>, to name a few), or considering subwords themselves as input directly for NLP models .",836
+"Given the recent advances in transfer learning for natural language processing, we plan to experiment with pre-trained neural language models for feature extraction and fine-tuning using stateof-the-art approaches such as ELMO <REF>), ULMFIT  and   .",837
+We use pre-trained word embeddings (fine-tuned during training) for the 3 languages: GloVe <REF> for EN and the pre-trained vectors from  for FR and DE.,838
+"An additional reason to scale them is that recent results in NLP <REF> show that NLMs can be used as upstream tasks in a transfer learning scenario, leading to state-of-the-art improvement in downstream tasks.",839
+The state-of-the-art in NLP is made of Neural Language Models (NLM) <REF>.,840
+"• BERT <REF>) -a deep, bidirectional transformer model with sequence classification layers on the top.",841
+"Unsupervised NMT As the foundation of unsupervised sentence translation, unsupervised word alignment has been investigated by <REF>, where linear embedding mapping and adversarial training are used to ensure the distribution-level matching, achieving considerable good accuracy or even surpasses the supervised counterpart for similar languages.",842
+"To cope up with this problem, RNN free architectures like QANet <REF>, which combines local convolution over words with a global self-attention mechanism, has been developed.",843
+"The architecture of the BERT BASE model <REF>, which is extensively used in this study, can be described as a multi-layer bidirectional Transformer encoder.",844
+"BERT BASE architecture has a embedding layer followed by 12 Transformer encoder layers <REF>, with hidden size 768 and has 110 million parameters.",845
+"Here LayerN orm is the layer normalization method, proposed by Ba et al <REF>.",846
+<REF> too.,847
+Many self-supervised tasks have been introduced to use non-visual but intrinsically correlated features to guide the visual feature learning <REF>.,848
+The usage of deep pre-trained language models has recently obtained state-of-the-art results for a wide variety of NLP tasks <REF>.,849
+"In this paper, we propose a novel biomedical text summarizer that uses the Bidirectional Encoder Representations from Transformers (BERT) language model <REF> to capture the context in which sentences appear within an input document.",850
+"We employ various deep network architectures, including recently proposed ELMo <REF> and BERT  networks.",851
+In Section 4 we explain the experiments and the experimental results using a number of different sequence labeling approaches and show that pre-trained contextualized word representations from BERT <REF> outperform our other baselines even with less than 10% of the training data.,852
+In Section 4 we explain the experiments and the experimental results using a number of different sequence labeling approaches and show that pre-trained contextualized word representations from BERT <REF> outperform our other baselines even with less than 10% of the training data.,853
+"• BERT-base uncased <REF> • 3-layer 600D Bidirectional Long Short-Term Memory (BiLSTM) (Hochreiter and Schmidhuber, 1997) • Minitagger (SVM) ) + GloVe  • MarMoT (CRF)  • Majority class per word The models were selected so that they cover a wide variety of different architectures from feature-based statistical approaches to neural networks and pre-trained language models.",854
+"Recent years have witnessed the bloom of various well-designed MRC models <REF>, which achieve promising performance when provided with adequate manually labeled instances .",855
+"Previous studies mainly focused on developing effective model structures to improve the reading ability of the systems <REF>, which have achieved promising performance.",856
+Here we utilize the bidirectional Transformer network BERT <REF> as the pre-trained encoder for its superior performance in a range of natural language understanding tasks.,857
+"Following <REF>, we first convert the concept to a set of BPE tokens tokens A and tokens B, with beginning index i and j in the input sequence respectively.",858
+We use the uncased BERT(base) <REF> as pre-trained language model.,859
+"In NLP, language models are pretrained over large corpus to learn good embedding representation of words and sentences <REF>.",860
+"In NLP, language models are pretrained over large corpus to learn good embedding representation of words and sentences <REF>.",861
+"Most of recent research on context-aware recommendation systems (CARS) focus on extension of Collaborative Filtering methods <REF>, Matrix Factorization or Tensor Factorization methods , and Latent Factor models.",862
+ing the importance of semantic information <REF>.,863
+"Recently, alternatives to Word2Vec became popular, specifically contextdependent sentence embeddings such as ELMo <REF> and not long ago BERT .",864
+"Recently, alternatives to Word2Vec became popular, specifically contextdependent sentence embeddings such as ELMo <REF> and not long ago BERT .",865
+"For the open tracks, we use the contextualized word representations produced by BERT <REF> as extra input features.",866
+"For this work, word embedding was created with a model similar to Bidirectional Encoder Representations from Transformers (BERT), <REF>.",867
+The language model we trained differs from <REF> mainly by the addition of a latent variable that represents the topic of the tweet and the persona of the writer.,868
+"Although many neural models have been proposed for extractive summarization recently <REF>, the improvement on automatic metrics like ROUGE has reached a bottleneck due to the complexity of the task.",869
+"Inspired by the great success of the Transformer for machine translation task in natural language processing (NLP) <REF>, we apply the self-attention mechanism to learn a better representation for each item in a user's behavior sequence by considering the sequential information in embedding stage, and then feed them into MLPs to predict users' responses to candidate items.",870
+We compare our results with the state-of-the-art in <REF>.,871
+MultiNLI Test Matched Mismatched DIIN <REF> 78.8 77.8 BERT     89.9 SAN 88.7,872
+"For example, consider the ubiquitous use of pre-trained model components, such as word vectors <REF> and context-sensitive encoders , for achieving state-of-the-art results on hard NLP tasks.",873
+"Self-supervised learning is gaining popularity across the NLP, vision, and robotics communities -e.g., <REF>].",874
+"Comparing with other commonsense reasoning tasks, such as COPA <REF>, Story Cloze Test , , SWAG , ReCoRD , and so on, WSC and PDP better approximate real human reasoning, can be easily solved by native English-speaker , and yet are challenging for machines.",875
+"We train our model of <REF> on the WSCR dataset, which consists of 1886 sentences, each being paired with a positive candidate antecedent and a negative candidate.",876
+"GPT-2 <REF>: During prediction, We first replace the pronoun in a given sentence with its candidates one by one.",877
+"Until recently, the dominant paradigm in approaching natural language processing (NLP) tasks has been to concentrate on neural architecture design, using only task-specific data and word embeddings such as GloVe <REF>.",878
+"In the current paradigm of pre-trained models, methods like BERT <REF> and XLNet  have been shown to achieve the state of the art in a variety of tasks including question answering, named entity recognition, and natural language inference.",879
+"To adapt BERT base and BERT large models for document classification, we follow <REF> and introduce a fully-connected layer over the final hidden state corresponding to the [CLS] input token.",880
+"Consistent with <REF>, BERT large achieves state-of-the-art results on all four datasets, followed by BERT base (see , rows 10 and 11).",881
+The bottom two subplots in <REF> illustrate the F 1 score of BERT fine-tuned using different numbers of epochs for AAPD and Reuters.,882
+"To tackle this problem, we propose a new approach, called slot-utterance matching belief tracker (SUMBT), which is a domainand slot-independent belief tracker as shown in <REF>.",883
+"For sentence encoders, we employed a pre-trained BERT model <REF> which is a deep stack of bi-directional Transformer encoders.",884
+"Word Representations To represent words from samples, we used deep contextualized word representations <REF> also known as ELMo along with its available pre-trained model 1 .",885
+We trained a BERT-Large language model from <REF> on the combined Wikipedia and BooksCorpus .,886
+We trained a BERT-Large language model from <REF> on the combined Wikipedia and BooksCorpus .,887
+"To ensure that the distantly supervised data and human-annotated data share the same entity distribution, named entity mentions are reidentified using Bidirectional Encoder Representations from Transformers (BERT) <REF> that is fine-tuned on the human-annotated data collected in Sec.",888
+<REF> shows the hyper-parameters of our models.,889
+<REF>: Sample output comparing our best system (CMR+W) against Memory Networks and a SEQ2SEQ baseline.,890
+One obvious future line of investigation will be to explore the effect of other off-the-shelf machine reading models such as BERT <REF> within the CMR framework.,891
+"To represent complex characteristics of words and word usage across different linguistic contexts effectively, a new model for deep contextualized word representation was introduced in <REF>.",892
+"Recently, there is a trend of learning universal language representations via language model pretraining <REF>.",893
+We We compare our models with two strong baselines: the BERT model <REF> and the MT-DNN model .,894
+Previous work on learning general language representations focus on learning word <REF> or sentence representations  that are helpful for downstream tasks.,895
+"1 Unlike <REF>, who provide only features from approx.",896
+BERT and HIER-BERT: BERT <REF>) is a language model based on Transformers  pretrained on large corpora.,897
+"Pre-trained language representation models, including feature-based methods <REF>) and fine-tuning methods , can capture rich language information from text and then benefit many NLP tasks.",898
+"Pre-trained language representation models, including feature-based methods <REF>) and fine-tuning methods , can capture rich language information from text and then benefit many NLP tasks.",899
+<REF> pre-trained sentence encoders from unlabeled text and fine-tuned for a supervised downstream task. ),900
+"Additionally, as described in <REF>), finetuning on BERT sometimes is observed to be unstable on small datasets, so we run experiments with 5 different random seeds and select the best model based on the development set for all of the fine-tuning experiments in this section.",901
+"Following <REF>, we use the batch size 32 and fine-tune for 3 epochs for all GLUE tasks, and select the fine-tuning learning rate (among 1e-5, 2e-5, and 3e-5) based on the performance on the development set.",902
+<REF> is from .,903
+<REF> is from .,904
+"The Bidirectional Encoder Representations from Transformers <REF> recently obtained new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE benchmark to 80.4% (7.6% absolute improvement).",905
+"For instance, one direction would be to to train the classifier on top of a pretrained language model <REF> which could improve the classification performance.",906
+"Recently, transformer networks have been shown to perform well for neural machine translation <REF> and many other NLP tasks .",907
+Transformer layers <REF> have the ability to learn long range relationships for many sequential classification tasks .,908
+Transformer networks <REF> are sequence models that rely on the attention mechanism  to capture long term dependencies.,909
+"Specifically, inspired by the success of BERT <REF> in text understanding, we propose to apply the deep bidirectional self-attention model to sequential recommendation, as illustrated in .",910
+"Specifically, inspired by the success of BERT <REF> in text understanding, we propose to apply the deep bidirectional self-attention model to sequential recommendation, as illustrated in .",911
+"To tackle this problem, we introduce the Cloze task <REF> to take the place of the objective in unidirectional models (i.e., sequentially predicting the next item).",912
+"In contrast, Transformer <REF> and BERT  are built solely on multi-head self-attention and achieve state-of-the-art results on text sequence modeling.",913
+Previous work has shown that it is beneficial to jointly attend to information from different representation subspaces at different positions <REF>.,914
+"Since 2012, the field of artificial intelligence has reported remarkable progress on a broad range of capabilities including object recognition, game playing, machine translation, and more <REF>.",915
+"For instance, Google's BERT-large <REF> contains roughly 350 million parameters.",916
+"For instance, researchers from Google <REF> trained over 12,800 neural networks in their neural architecture search to improve performance on object detection and language modeling.",917
+"According to several recent studies <REF>, contextual sentence and word embeddings can improve the performance of the state-of-the-art NLP systems by a significant margin.",918
+"Since the release of such large data sets, many advanced deep learning architectures have been developed <REF>.",919
+"This includes three existing models, namely <REF>, ESIM  and BERT  and two new models namely Lambda DecAtt (ours) and Lambda ESIM (ours).",920
+GPT <REF> 100 SPN  Not reported BERT  40 Mesh Transformer  10 Transformer-XL  Not reported GPT-2  Not reported (20 or 100) Sparse Transformer  70 -120 dataset for many epochs to make the comparison with the previous state-of-the-art fair.,921
+"Notably, the result of GPT <REF>, BERT  and  implies that the training on a large dataset leads to a significant improvement in performance.",922
+We train base Transformer decoder <REF> with some modifications (as described below) for language model.,923
+"Note that GPT-2 does not use any regularization method, and <REF> suggests to fine-tune BERT for only a few epochs.",924
+BERT is known to be more sample efficient than other language models such as the left-to-right language model as shown in papers as <REF>.,925
+"For SQuAD <REF>, a common EQA benchmark dataset, current models beat human : A schematic of our approach.",926
+"For the synthetic dataset training method, we consider two QA models: finetuning BERT <REF> and BiDAF + Self Attention .",927
+BERT-Large <REF> 84.1 90.9 BiDAF+SA  72.1 81.1 Log.,928
+"Unsupervised Learning in NLP Most representation learning approaches use latent variables <REF>, or language  .",929
+We compare our baselines with a fine-tuned BERT model <REF>.,930
+We compare our baselines with a fine-tuned BERT model <REF>.,931
+"We experiment with a feature-based Logistic Regression model and a fine-tuned BERT model <REF> using the same strategy to split the data into train, development and test sets as in Section 3.1.",932
+We note that this way of processing the input is similar to how <REF> processed their input for the QA task.,933
+"To bypass the scarcity of causal instances in relation extraction datasets, we exploit transfer learning, namely ELMO <REF> and   , comparing against a bidirectional GRU with self-attention .",934
+"To bypass the scarcity of causal instances in relation extraction datasets, we exploit transfer learning, namely ELMO <REF> and   , comparing against a bidirectional GRU with self-attention .",935
+"We use cross-entropy loss, the Adam optimizer (Kingma and Ba, 2015), and dropout layers <REF> before and after the BI-GRU ).",936
+"We use cross-entropy loss, the Adam optimizer (Kingma and Ba, 2015), and dropout layers <REF> before and after the BI-GRU ).",937
+"We use cross-entropy loss, the Adam optimizer (Kingma and Ba, 2015), and dropout layers <REF> before and after the BI-GRU ).",938
+"Story-Cloze: Since it is difficult to do human evaluation on all the stories, we use the StoryCloze task <REF> to create a metric in order to pick our best model and also to evaluate the efficacy of our model against Seq2Seq and its variants.",939
+"As such, the quality of mention detection affects very deeply both the quality of an annotation and the performance of a model for such applications <REF>.",940
+"As such, the quality of mention detection affects very deeply both the quality of an annotation and the performance of a model for such applications <REF>.",941
+"Despite neural networks having shown high performance in many natural language processing tasks, the rule-based mention detector of the Stanford deterministic system <REF> remains frequently used in top performing coreference systems , including the best pipeline system itself based on neural networks .",942
+"The second approach (BIAFFINE MD) uses a bi-directional LSTM to encode the sentences of the document, followed by a biaffine classifier <REF> to score the candidates.",943
+"Using MT to achieve knowledge transfer between different languages has been studied on sentiment analysis <REF>, spoken language understanding  and question answer .",944
+"To handle linguistic information, we adopt sub-word embedding using BERT <REF> and a multilayer bidirectional LSTM (Bi-LSTM).",945
+"For linguistic processing, instead of a word-based embedding model, we use a sub-word embedding model, BERT <REF>, to initialize the embedding vectors.",946
+"<REF> first showed the substantial effectiveness gains for the MS MARCO passage re-ranking using BERT , a large pre-trained transformer based model.",947
+We conduct our experiments on five neural IR models using a basic Glove <REF> word embedding and FastText .,948
+"For a proof of concept, we chose the word2vec embedding <REF> as the word vector space to interpret.",949
+Recent advancement in NLP such as BERT <REF> has facilitated great improvements in many Natural Language Understanding (NLU) tasks .,950
+"Recently, significant progress has been achieved on many natural language processing tasks including MRC by fine-tuning a pre-trained generalpurpose language model <REF>.",951
+"Recently, significant progress has been achieved on many natural language processing tasks including MRC by fine-tuning a pre-trained generalpurpose language model <REF>.",952
+"This paper extends the concept of FLOW and proposes a flow-based approach, FLOWDELTA, to explicitly model information gain in flow during dialogues illustrated in <REF>.",953
+"BERT <REF> with fine-tuning recently has reached the state-of-the-art in many single-turn MC tasks, such as SQuAD .",954
+"""T-Block"" refers to pre-trained Transformer block <REF>.",955
+"A cascaded approach is recently proposed by <REF>, which also combines several components such as the retriever and the reader while sharing several sets of parameters.",956
+"Typically, existing approaches either read the retrieved document at the paragraph level <REF> or at the sentence level .",957
+"Data preprocessing Following Clark and Gardner <REF>, we merge small paragraphs into a single paragraph of up to a threshold length in TriviaQA and SQuAD-open.",958
+"Model settings We initialize our model using two publicly available uncased versions of BERT 5 : BERT BASE and BERT LARGE , and refer readers to <REF> for details on model sizes.",959
+"Significant progress has been made over the past years due to the using of end-to-end neural network models and attention mechanism, such as DMN <REF>, r-net , DrQA , QANet , and most recently BERT .",960
+"Contextual word embedding models, such as ELMo and <REF> have become increasingly common, replacing traditional type-level embeddings and attaining new state of the art results in the majority of NLP tasks.",961
+There have been several efforts to investigate the amount of intrinsic bias within uncontextualized word embeddings in binary <REF> and multiclass  settings.,962
+Comparative linguistics seeks to identify and elucidate genetic relationships between languages and hence to identify language families <REF>.,963
+"Models using self-supervised learning for initialization are now state-of-the-art in several domains and tasks, such as action recognition, reinforcement learning, and natural language understanding <REF>].",964
+"Four submissions used external embeddings, MUSE <REF> in the case of MaskParse@Deskiñ and XLangMo, ELMo (Peters et al., 2018) in the case of TüPa, 14 and BERT  in the case of HLT@SUDA.",965
+"In the past years, the development of deep learning methods of language representation was swift, and the newer methods were shown to have significant effects on improving other natural language processing tasks <REF>.",966
+"In the past years, the development of deep learning methods of language representation was swift, and the newer methods were shown to have significant effects on improving other natural language processing tasks <REF>.",967
+The mention score network is build on the pretrained BERT model ( <REF>).,968
+"Pre-trained BERT model: As increasing model sizes of BERT may lead to significant improvements on very small scale tasks <REF>, I explore the effect of BERT BASE and BERT LARGE in the experiments.",969
+"Hidden Layers for Representation: <REF> showed that using the representation from appropriate hidden layers of BERT can improve the model performance, the hidden layers L (described in Section 2) is therefore utilized as a hyper-parameter tuned in the experiments.",970
+Transfer learning has a long history in the field of machine learning <REF>.,971
+BERT <REF> represents the latest refinement in a series of neural models that take advantage of pretraining on a language modeling task .,972
+This model is similar to the large Transformer model recently used in several works leading to impressive results on several down-stream NLP tasks <REF>.,973
+Separation tokens may also be added to further separate each utterances of the dialog as it is commonly done for Transformer's inputs <REF>.,974
+"We consider the task of document classification, where our 'raw data' comprises of text documents from the ag-news dataset <REF>.",975
+Recent studies have shown that state-of-the-art coreference resolution systems exhibit gender bias <REF>    .,976
+The rest of the architecture until the Span-wise Max Pooling layer follows the standard SQUAD formulation in <REF>.,977
+The rest of the architecture until the Span-wise Max Pooling layer follows the standard SQUAD formulation in <REF>.,978
+"Once we represent the inputs in this fashion, the rest of the architecture follows the design of BERT based SWAG task architecture discussed in <REF>.",979
+We adopt the bidirectional pre-training encoder from the transformer (BERT) <REF> to introduce external knowledge.,980
+"Meanwhile, neural network-based representations continue to advance nearly all areas of NLP, from question answering <REF> to named entity recognition ) (a close analog of concept extraction).",981
+"An evaluation exploring numerous embedding methods: word2vec <REF>, GloVe , fastText , , and BERT .",982
+"BERT <REF> is also a contextual word representation model, and, similar to ELMo, pre-training on an unlabeled corpus with a language model objective.",983
+"Second, modern open-domain QA systems are generally composed of two parts: a retriever that obtains relevant segments of text, and a machine reading comprehension (MRC) model that extracts the answer from the text <REF>.",984
+"State of the art MRC models for Arabic based on BERT <REF> and QANet  DefArabicQA  Wikipedia and Google search engine q,a with documents 50 Translated TREC and CLEF  Translated TREC and CLEF q,a 2,264 QAM4MRE  selected topics document,q and multiple answers 160 DAWQUAS  auto-generated from web scrape q,a 3205",985
+"As previously mentioned, the driver behind progress in QA has been the release of large datasets in addition to advances in deep learning and language representation models <REF>.",986
+"Inspired by classical QA systems <REF>, we employ a term frequency-inverse document frequency (TF-IDF) based document retriever given its efficiency.",987
+"Our proposed reader is Bert <REF>, a pre-trained language model that is currently the state of the art on the SQuAD leaderboard 2 .",988
+Attention was introduced by <REF> for the encoder-decoder in a neural sequence transduction model to allow for content-based summarization of information from a variable length source sentence.,989
+BERT <REF> and ELMo ) generate deep contextualized word representations.,990
+"Recently, pre-trained language models were proposed <REF>).",991
+"As the size of the MedNLI dataset is limited to train the whole weight parameters in complicated neural network based models, we first choose a BERT <REF> based model that provides pre-trained model parameters from a large corpus.",992
+"We follow the data collection method used by Natural Questions (NQ) <REF> to gather 16,000 naturally occurring yes/no questions into a dataset we call BoolQ (for Boolean Questions).",993
+"Natural language inference is also a well studied area of research, particularly on the MultiNLI <REF> and SNLI  datasets.",994
+"Unsupervised: It is well known that unsupervised pre-training using language-modeling objectives <REF>, can improve performance on many tasks.",995
+"Our BERT L model fine-tunes the 24 layer 1024 dimensional transformer from <REF>, which has been trained on next-sentence-selection and masked language modelling on the Book Corpus and Wikipedia.",996
+"Representation learning techniques at the word level, such as word embedding <REF> and contextualized representations , have demonstrated their effectiveness in NER.",997
+"By leveraging pre-trained machine translation models, CoVe constructs contextualized word representations <REF>.",998
+"In 2018, the BERT (Bidirectional Encoder Representations from Transformers) language representation model achieved state-of-the-art performance across NLP tasks ranging from sentiment analysis to question answering <REF>.",999
+A long line of QA models have been developed which answer questions based on a single passage of text <REF>.,1000

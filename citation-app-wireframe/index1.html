@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 50px;}
+    .content-header{
+    margin-top: 40px;
+    
+    background-color: #59B1EC;
+    color:whitesmoke}
+
+    .content-header-1{
+    margin-top: 40px;
+    
+    background-color: white;
+    color:Black}
+
+    p,h1{
+      margin-left: 160px;
+      
+    }
+    h1{font-weight:350;}
+    h2{
+      margin-left:104px;
+      font-weight:300;
+    }
+    
+    .row-1{width:400px}
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    .form-control{width:300px;
+    margin-left: 160px;}
+    
+    .card {
+  position: relative;
+  right:100px;
+  top:30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 380px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+    .card-header{background-color: gray;
+    }
+    .float-right{
+      float:right;
+    }
+    .float-left{
+      float:left;
+    }
+
+    .no-bullets {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 5px;
+    margin-top:5px;
+}
+
+img{
+  margin-left:415px;
+  width:50%;
+  size: 100px;
+}
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse  navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Aggregate Intellect</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center content-header">    
+  <div class="row content content-1">
+    <div class="col-sm-12 text-left content-header"> 
+      <h1>Project Citation Analysis</h1>
+      <p> Dive into ocean of research content using the Citation Analysis API </p>
+      <br>
+      <br>
+    </div>
+  </div>
+  <div class="row ">
+    
+  </div>
+</div>
+
+<!-- NEW TEST -->
+
+
+<!-- EXPLORE -->
+<div class="container-fluid text-center content-header-1">    
+    <div class="row content content-1">
+      <div class="col-sm-8 text-left content-header-1"> 
+        <h1>Explore</h1>
+        <input class="form-control" type="text" placeholder="ArxiveID" aria-label="Search">
+        <br>
+        <br>
+      </div>
+
+      <div class="col-sm-4 text-center content-header-1 float-right">
+          <div class="card" >
+              <div class="card-header">
+                  Citations
+                </div>
+              <div class="card-body">
+                <ul>
+                  <li class="no-bullets"><a href="#"  class="card-link">1,226 Citations </a></li>
+                  <li class="no-bullets"><a href="#"  class="card-link">150 Highly Influenced Papers</a></li>
+                  <li class="no-bullets"><a href="#"  class="card-link">735 Cite Background </a></li>
+                  <li class="no-bullets"><a href="#"  class="card-link">490 Cite Methods </a></li>
+                  <li class="no-bullets"><a href="#"  class="card-link">27 Cite Results </a> </li>
+                </ul>
+                <a href="#" class="card-link">Authors</a>
+                <a href="#" class="card-link">Date Published</a>
+              </div>
+            </div>
+      </div>
+
+    </div>
+   
+    <div class="row content content-1">
+        <div class="col-sm-12 text-left content-header-1 float-left"> 
+          <h1>Analyze</h1>
+          <p>LDA Analysis goes here to produce LDA topics and key words returned by giving a query for scientific paper</p>
+          <img src="./images/topic-wordsss.png" class="img-thumbnail" alt="Cinque Terre">
+          <br>
+          <br>
+         
+        </div>
+      </div>
+
+      <div class="row content content-1">
+          <div class="col-sm-12 text-left content-header-1"> 
+              <h1>Visualize </h1>
+              <p>Interactive topic model visualization to help users interpret the topics in a topic model that has been fit to a corpus of text data.</p>
+              <p> The information is extracted from a fitted LDA topic model to inform an interactive web-based visualization.</p>
+            <p>Visualises the LDA topics to make inference </p>
+              <img src="./images/topics.png" class="img-thumbnail" alt="Cinque Terre">
+            <br>
+            <br>
+          </div>
+        </div>
+
+
+        <div class="row content content-1">
+            <div class="col-sm-12 text-left content-header-1"> 
+                <h1>Sentiment Analysis </h1>
+                <p>The polirity of citation for searched paper is returned here. Sentiment analysis can shed light on the emotions expressed when discussing a given topic.</p>
+                  <p>We have imported tools for the NLTK: the VADER lexicon, which calculates negative, positive, and neutral values for our text, </p>
+                  <p>and a word tokenizer, which splits our large text file into sentences or words.</p>
+                <img src="./images/sentiment.png" class="img-thumbnail" alt="Cinque Terre">
+              <br>
+              <br>
+            </div>
+          </div>
+
+
+
+        <div class="row content content-1">
+            <div class="col-sm-12 text-left content-header-1"> 
+                <h1>Summary </h1>
+                <p>Finally the summary of the topics will be generated from the original text of dominant topics for the searched paper.</p>
+                
+              <br>
+              <br>
+            </div>
+          </div>
+
+
+  </div>
+<!-- ANALYZE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- OLD TEST -->
+
+
+
+
+<footer class="container-fluid text-center">
+    <ul class="nav navbar-nav">
+        
+        <li><a href="#">Privacy & Cookies</a></li>
+        <li><a href="#">Web Site Terms of Use</a></li>
+
+        <li><a href="#"> 2019 &copy; Aggregate Intellect</a></li>
+      </ul>
+</footer>
+
+</body>
+</html>
